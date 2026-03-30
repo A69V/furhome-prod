@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<head>
+  <title>Message - Abhinav</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    button {
+      background-color: rgba(0, 0, 0, 0);
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .message-container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      color: #000000;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      z-index: 998;
+      box-shadow: 0 0 10px grey;
+      overflow: hidden;
+    }
+
+    .message-app-header {
+      padding: 8px 0;
+      display: none; /*flex*/
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 999;
+      border-radius: 10px 10px 0 0;
+      background-color: rgb(197, 40, 40);
+      color: #ffffff;
+    }
+
+    .message-app-header h2 {
+      font-size: 17px;
+      margin: 0;
+      z-index: 999;
+      margin-left: 10px;
+    }
+
+    .message-app-header button {
+      margin-right: 10px;
+    }
+
+    .message-app-header button svg {
+      fill: #ffffff;
+    }
+
+    .chat-info-header {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .chat-info-usr-data {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+      margin-left: 10px;
+    }
+
+    #go-back-from-chat {
+      padding: 0;
+    }
+
+    .chat-info-usr-pfp {
+      overflow: hidden;
+      width: 35px;
+      height: 35px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .chat-info-usr-pfp img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50px;
+    }
+
+    .chat-info-usr-info p {
+      margin: 0;
+      display: inline-block;
+    }
+
+    .chat-info-usr-info-status {
+      font-size: 10px;
+      font-weight: bold;
+    }
+
+    #chat-info-usr-actions-btn {
+      padding: 20px 5px;
+      margin-right: 5px;
+    }
+.chat-info-usr-actions{
+  position: fixed;
+  background-color: #ffffff;
+  border-radius: 10px;
+  top: 60px;
+  right: 5px;
+  box-shadow: 0 0 10px grey;
+  z-index: 10000;
+}
+.hide{
+  display: none;
+}
+.chat-info-usr-actions ul{
+  list-style: none;
+}
+.chat-info-usr-actions ul li{
+  width: auto;
+  padding: 10px 10px 10px 5px;
+  margin: 2px;
+}
+.chat-info-usr-actions ul li a{
+  padding: 10px 10px 10px 5px;
+  text-decoration: none;
+  color: #000000;
+}
+    /*message body*/
+    .message-body-container {
+      width: 100%;
+      height: 100%;
+      background-image: url(chat-bkc.jpg);
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+      padding-top: 50px;
+      transform: rotate(180deg);
+      -ms-overflow-style: none;
+      transition: all ease 0.4s;
+      /* Internet Explorer and Edge */
+      scrollbar-width: none;
+      /* Firefox */
+    }
+
+    .message-body-container::-webkit-scrollbar {
+      display: none;
+      /* Chrome, Safari, and Edge */
+    }
+
+    /*message ui*/
+    .message-box {
+      max-width: 70%;
+      display: flex;
+      flex-direction: column;
+      padding: 0px 10px;
+      margin: 5px;
+      box-shadow: 0 0 5px grey;
+      transform: rotate(180deg);
+    }
+
+    .message-box p {
+      margin: 8px 8px 0px 0px;
+      font-size: 15px;
+    }
+
+    .me {
+      background-color: rgb(197, 40, 40);
+      color: #ffffff;
+      border-radius: 10px 5px 5px 10px;
+      align-self: flex-start;
+    }
+
+    .you {
+      background-color: #ffffff;
+      color: black;
+      border-radius: 5px 10px 10px 5px;
+      align-self: flex-end;
+    }
+
+    #read-reciept {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    #view-reciept img {
+      width: 10px;
+      height: 10px;
+      border-radius: 50px;
+    }
+
+    .message-box-bottom {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 2px;
+      font-size: 10px;
+      gap: 10px;
+    }
+
+    /*Text Input kit for text, file, emoji, send button*/
+    .chat-input-kit {
+      z-index: 999;
+      background-color: #ffffff;
+      padding: 5px 0;
+      position: fixed;
+      width: 100%;
+      bottom: -0.5px;
+      box-shadow: 0 0 10px grey;
+    }
+
+    .message-input-area {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .message-input-tools {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: rgb(228, 228, 228);
+      border-radius: 50px;
+      padding: 7px;
+      gap: 5px;
+      width: 100%;
+      margin: 0px 10px;
+    }
+
+    .message-input-tools input {
+      background-color: rgba(0, 0, 0, 0);
+      color: #000;
+      border: none;
+      width: 100%;
+      outline: none;
+    }
+
+    .message-input-tools input::placeholder {
+      color: #000;
+    }
+
+    .message-input-tools button svg {
+      fill: #000;
+    }
+
+    #message-send-btn {
+      background-color: rgb(197, 40, 40);
+      border-radius: 50px;
+      padding: 7px;
+      margin-right: 10px;
+    }
+
+    #message-send-btn svg {
+      fill: #ffffff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="message-container">
+    <div class="message-app-header">
+      <h2>Messages</h2>
+      <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg"
+          viewBox="0 0 16 16">
+          <path
+            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+        </svg></button>
+    </div>
+    <div class="chat-info-header">
+      <div class="chat-info-usr-data">
+        <button id="go-back-from-chat" onclick="goBackTo()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+          </svg></button>
+        <div class="chat-info-usr-pfp"><img src="https://avatars.githubusercontent.com/u/179022016?s=50&v=4"
+            alt="Abhinav's Profile Picture"></div>
+        <div class="chat-info-usr-info">
+          <div class="chat-info-usr-info-name">
+            <p>Abhinav <span id="badge" title="Verified"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
+                  fill="#c52828" class="bi bi-shield-fill-check" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.8 11.8 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7 7 0 0 0 1.048-.625 11.8 11.8 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.54 1.54 0 0 0-1.044-1.263 63 63 0 0 0-2.887-.87C9.843.266 8.69 0 8 0m2.146 5.146a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793z" />
+                </svg></span></p>
+          </div>
+          <div class="chat-info-usr-info-status">
+            <p>Last seen today at 3:45 P.M.</p>
+          </div>
+        </div>
+      </div>
+      <button id="chat-info-usr-actions-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+          <path
+            d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+        </svg></button>
+      <div class="chat-info-usr-actions hide">
+   <ul>
+    <li><a href="#">View Profile</a></li>
+    <li><a href="#">Mute Notification</a></li>
+    <li><a href="#">Report</a></li>
+    <li><a href="#">Block</a></li>
+    <li><a href="#">Clear Chat</a></li>
+   </ul>
+  </div>
+    </div>
+    <div class="message-body-container">
+      <div class="message-box me">
+        <p class="message-box-body"> Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Aliquam, corrupti asperiores vero voluptates omnis quo. Dignissimos consectetur veniam suscipit, hic, ducimus
+          itaque ad eaque, nesciunt eligendi facilis facere? Doloremque molestiae quas labore doloribus soluta
+          voluptatum beatae quia. Ratione consectetur id mollitia quia quidem. Minima maiores, corrupti perspiciatis id
+          esse dolores..</p>
+        <div class="message-box-bottom">
+          <span id="message-timestamp">10:53 PM</span>
+          <span id="read-reciept">
+            <span id="delivery-reciept"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                <path
+                  d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+              </svg></span>
+            <img id="view-reciept" style="border-radius: 50px;"
+              src="https://avatars.githubusercontent.com/u/179022016?s=10&v=4" alt="">
+          </span>
+        </div>
+      </div>
+
+      <div class="message-box you">
+        <p class="message-box-body"> Lorem ipsum dolor sit amet.</p>
+        <div class="message-box-bottom">
+          <span id="message-timestamp">10:53 PM</span>
+        </div>
+      </div>
+
+      <div class="message-box me">
+        <p class="message-box-body"> Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Aliquam, corrupti asperiores vero voluptates omnis quo. Dignissimos consectetur veniam suscipit, hic, ducimus
+          itaque ad eaque, nesciunt eligendi facilis facere? Doloremque molestiae quas labore doloribus soluta
+          voluptatum beatae quia. Ratione consectetur id mollitia quia quidem. Minima maiores, corrupti perspiciatis id
+          esse dolores..</p>
+        <div class="message-box-bottom">
+          <span id="message-timestamp">10:53 PM</span>
+          <span id="read-reciept">
+            <span id="delivery-reciept"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                <path
+                  d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+              </svg></span>
+            <img id="view-reciept" style="border-radius: 50px;"
+              src="https://avatars.githubusercontent.com/u/179022016?s=10&v=4" alt="">
+          </span>
+        </div>
+      </div>
+
+      <div class="message-box you">
+        <p class="message-box-body"> Lorem ipm ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Aliquam, corrupti asperiores vero voluptates omnis quo. Dignissimos consectetur veniam suscipit, hic, ducimus
+          itaque ad eaque, nesciunt eligendi facilis facere? Doloremque molestisum dolor sit amet.</p>
+        <div class="message-box-bottom">
+          <span id="message-timestamp">10:53 PM</span>
+        </div>
+      </div>
+
+      <div class="message-box me">
+        <p class="message-box-body"> Lorloribus soluta
+          voluptatum beatae quia. Ratione consectetur id mollitia quia quidem. Minima maiores, corrupti perspiciatis id
+          esse dolores..</p>
+        <div class="message-box-bottom">
+          <span id="message-timestamp">10:53 PM</span>
+          <span id="read-reciept">
+            <span id="delivery-reciept"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                <path
+                  d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+              </svg></span>
+            <img id="view-reciept" style="border-radius: 50px;"
+              src="https://avatars.githubusercontent.com/u/179022016?s=10&v=4" alt="">
+          </span>
+        </div>
+      </div>
+
+      <div class="message-box you">
+        <p class="message-box-body"> Lorem ipsum dolor sit amet.</p>
+        <div class="message-box-bottom">
+          <span id="message-timestamp">10:53 PM</span>
+        </div>
+      </div>
+    </div>
+    <div class="chat-input-kit">
+      <div class="message-input-area">
+        <div class="message-input-tools">
+          <button id="message-emoji-tray-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-emoji-laughing" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+              <path
+                d="M12.331 9.5a1 1 0 0 1 0 1A5 5 0 0 1 8 13a5 5 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5M7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5m4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5" />
+            </svg></button>
+          <input type="text" placeholder="Message" required>
+          <button id="message-file-upload-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16">
+              <path
+                d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0z" />
+            </svg></button>
+        </div>
+        <button id="message-send-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-send" viewBox="0 0 16 16">
+            <path
+              d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
+          </svg></button>
+      </div>
+      <div class="message-emoji-tray"></div>
+    </div>
+  </div>
+</body>
+<script>
+  document.querySelector('.message-body-container').addEventListener('wheel', (event) => {
+    // Prevent the default scrolling behavior
+    event.preventDefault();
+
+    // Reverse the scroll direction
+    event.currentTarget.scrollTop -= event.deltaY;
+  });
+
+  document.getElementById("chat-info-usr-actions-btn").addEventListener('click', ()=>{
+    document.querySelector(".chat-info-usr-actions").classList.toggle("hide");
+  })
+
+  function goBackTo(){
+  history.back();
+}
+</script>
+
+</html>
