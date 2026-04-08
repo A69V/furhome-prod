@@ -1,215 +1,160 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Student Profile Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/responsive.css">
-  <link rel="icon" href="assets/icons/favicon.ico?v=2">
-  <title>Bring a Forever to your home today! | FurHome.Org</title>
-  <meta property="og:image" content="https://furhome.org/assets/images/og-image.png">
-  <meta property="description" content="Adopt a dog or cat near your home today!" />
-  <link rel="manifest" href="manifest.json">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.metric {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #334155;
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.strong { background: #064e3b; color: #34d399; }
+.weak { background: #7f1d1d; color: #f87171; }
+
+  </style>
 </head>
-
-<body>
-  <header>
-    <div class="top-head">
-      <div class="left-side-top-head">
-        <button class="thr-btn menu-btn" style="padding: 10px;"><img width="15px"
-            src="assets/icons/menu_icon.png"></button>
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">
-
-          </a>
-        </div>
-        <div class="select-loc" id="select-location" title="Select your location">
-          <!-- <p class="sel-loc-head" style="color: grey;">Friends are made,<br> not bought.</p> -->
-          <p class="sel-loc-head">Adopt pets near you!</p>
-          <div class="location-show-select">
-            <i class="bi bi-geo-alt-fill"></i>
-            <p class="locat-p">Select your location</p>
-            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
-                class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                <path
-                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-              </svg></span>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="right-side-top-head">
-
-        <a>Rehome</a>
-        <a>How-to</a>
-        <a>Find a shelter</a>
-        <a>Pet guide</a>
-        <!--<button class="thr-btn" title="Notifications">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill"
-            viewBox="0 0 16 16">
-            <path
-              d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901" />
-          </svg>
-          <span id="nofi-c-badge">9+</span>
-        </button>-->
-        <!-- <button class="thr-btn" title="Shop"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
-</svg>
-<span id="nofi-c-badge">9+</span></button>-->
-        <button class="thr-btn" title="Shop"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-          fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-        </svg></button>
-        <button class="thr-btn" title="My Favourites"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-            fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
-            <path
-              d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
-          </svg>
-          <span id="nofi-c-badge">9+</span></button>
-
-        <button class="thr-btn" title="Login"><span class="sr-th-ico"><svg xmlns="http://www.w3.org/2000/svg" width="30"
-              height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
-              <path fill-rule="evenodd"
-                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
-            </svg> </span><span class="sr-th-txt">Login</span></button>
-        <button class="thr-btn cart-btn"><span>SignUp</span></button>
-      </div>
+<body><div class="container">  <div class="header">
+    <h1>Student Profile</h1>
+    <div>Semester 6</div>
+  </div>  <!-- Summary Metrics -->  <div class="grid">
+    <div class="card">
+      <div class="metric">8.4</div>
+      <div class="label">Semester GPA</div>
     </div>
-  </header>
-  <div class="nav-menu closed-nav-menu">
-    <div class="nav-menu-content">
-      <button class="nav-menu-content-close" onclick="closeNavMenu()">
-        <p>Menu</p>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg"
-          viewBox="0 0 16 16">
-          <path
-            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
-        </svg>
-      </button>
-      <div class="nav-menu-list">
-        <ul>
-          <li><a class="nav-menu-list-a" href="#">Rehome</a></li>
-          <li><a class="nav-menu-list-a" href="#">How-to</a></li>
-          <li><a class="nav-menu-list-a" href="#">Pet Advice</a></li>
-          <li><a class="nav-menu-list-a" href="message.html">Messages</a></li>
-          <li><a class="nav-menu-list-a nav-menu-cta" href="#">Login</a></li>
-          <li><a class="nav-menu-list-a nav-menu-cta nav-menu-cta-red" href="#">SignUp</a></li>
-        </ul>
-      </div>
+    <div class="card">
+      <div class="metric">+0.6</div>
+      <div class="label">Growth from Last Semester</div>
     </div>
-    <div class="nav-menu-close nav-menu-close-fade" onclick="closeNavMenu()"></div>
-  </div>
-  <div class="hero-landing">
-    <div class="hl1">
-      <h1>Ready to<br>adopt a pet?</h1>
-      <p>Let's get started! <br> Search pets from shelters, rescues, and individuals.</p>
+    <div class="card">
+      <div class="metric">0.5</div>
+      <div class="label">Consistency Score</div>
     </div>
-    <div class="th-search">
-      <div class="search-categ">
-        <button id="se-ca-dogs" class="category-btn" title="Dogs">Dogs</button>
-        <button id="se-ca-cats" class="category-btn" disabled title="Coming soon...">Cats</button>
-        <button id="se-ca-oth" class="category-btn" disabled title="Coming soon...">Other Pets</button>
-      </div>
-      <div class="search">
-
-        <div class="search-input-div" style="display: flex; flex-direction: row;">
-          <input title="Enter your location" type="text" id="locationInput"
-            placeholder="eg: Powai, Mumbai, Maharashtra, India">
-        </div>
-        <div id="search-dropdown">
-          <select class="aao" name="sex">
-            <option value="">Gender</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-          </select>
-          <select class="aao" name="age">
-            <option value="">Age</option>
-            <option value="puppy">Puppy</option>
-            <option value="adult">Adult</option>
-            <option value="senior">Senior</option>
-          </select>
-          <select class="aao" name="breed">
-            <option value="">Breed</option>
-            <option value="affenpinscher/">Affenpinscher</option>
-            <option value="afghan-hound/">Afghan Hound</option>
-
-            <option value="yorkshire-terrier/">Yorkshire Terrier</option>
-          </select>
-        </div>
-      </div>
-      <div class="adv-submit-btn">
-        <button class="advance-search" id="adv-src">More Search filters</button>
-        <button type="submit">Search</button>
-      </div>
-
+    <div class="card">
+      <div class="metric">78%</div>
+      <div class="label">Overall Performance</div>
     </div>
-  </div>
-  <footer>
-    <div class="footer-message">
-      <img src="assets/images/footer-message.png" alt="Adotp, do not Shop. Rehome, do not Abandon." draggable="false">
-    </div>
-     <div class="footer">
-      <div class="footer-links">
-        <div class="footer-links-child">
-          <h3>Useful links</h3>
-          <ul>
-            <li><a>Find a pet</a></li>
-            <li><a>Rehome a pet</a></li>
-            <li><a>Pet guides</a></li>
-            <li><a>Explore by Location</a></li>
-            <li><a>Explore by Breed</a></li>
-            <li><a>Pet Supplies</a></li>
-          </ul>
-        </div>
-        <div class="footer-links-child">
-          <h3>About</h3>
-          <ul>
-            <li><a>About us</a></li>
-            <li><a>Mission</a></li>
-            <li><a>Blogs</a></li>
-            <li><a>Contact us</a></li>
-          </ul>
-        </div>
-        <div class="footer-links-child">
-          <h3>Information</h3>
-          <ul>
-            <li><a>Sitemap</a></li>
-            <li><a>Privacy Policy</a></li>
-            <li><a>Terms of use</a></li>
-            <li><a>Advertise with us</a></li>
-          </ul>
-        </div>
-        <div class="footer-links-child">
-          <h3>Social Links</h3>
-          <ul>
-            <li><a href="https://linkedin.com/showcase/handsnpaws" target="_blank">LinkedIn</a></li>
-            <li><a href="https://youtube.com/@furhome" target="_blank">YouTube</a></li>
-            <li><a href="https://facebook.com/furhome.org" target="_blank">Facebook</a></li>
-            <li><a href="https://instagram.com/furhome.org" target="_blank">Instagram</a></li>
-            <li><a href="https://x.com/furhomeorg" target="_blank">X - Twitter</a></li>
-            <li><a href="https://wa.me/1234567890" target="_blank">WhatsApp</a></li>
-          </ul>
-        </div>
+  </div>  <!-- GPA Trend -->  <div class="card">
+    <h3>GPA Trend</h3>
+    <canvas id="gpaChart"></canvas>
+  </div>  <!-- Subject Performance -->  <div class="card">
+    <h3>Subject Performance</h3>
+    <table>
+      <tr>
+        <th>Subject</th>
+        <th>Marks</th>
+        <th>Skill</th>
+        <th>Category</th>
+      </tr>
+      <tr>
+        <td>Data Structures</td>
+        <td>85</td>
+        <td>Problem Solving</td>
+        <td><span class="tag strong">Strong</span></td>
+      </tr>
+      <tr>
+        <td>Operating Systems</td>
+        <td>72</td>
+        <td>Systems</td>
+        <td><span class="tag weak">Needs Work</span></td>
+      </tr>
+      <tr>
+        <td>DBMS</td>
+        <td>80</td>
+        <td>Data</td>
+        <td><span class="tag strong">Strong</span></td>
+      </tr>
+    </table>
+  </div>  <!-- Skill Radar -->  <div class="card">
+    <h3>Skill Analysis</h3>
+    <canvas id="skillChart"></canvas>
+  </div>  <!-- Insights -->  <div class="card">
+    <h3>Insights</h3>
+    <ul>
+      <li>Consistent improvement over last 3 semesters</li>
+      <li>Strong in problem-solving and data-related subjects</li>
+      <li>Needs improvement in system-level subjects</li>
+      <li>Good recovery from past low performance</li>
+    </ul>
+  </div></div><script>
+  const gpaCtx = document.getElementById('gpaChart');
+  new Chart(gpaCtx, {
+    type: 'line',
+    data: {
+      labels: ['Sem 1', 'Sem 2', 'Sem 3', 'Sem 4', 'Sem 5', 'Sem 6'],
+      datasets: [{
+        label: 'GPA',
+        data: [6.5, 6.8, 7.2, 7.5, 7.8, 8.4],
+        fill: false
+      }]
+    }
+  });
 
-      </div>
-      
-       
-    </div>
-    </div>
-    <div class="footer-copyright">
-      <p>©
-        <script>document.write(new Date().getFullYear())</script>, FurHome.
-      </p>
-    </div>
-
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js"></script>
-  <script src="scripts/main.js"></script>
-</body>
-<script src="/scripts/search-loc.js"></script>
-
-
+  const skillCtx = document.getElementById('skillChart');
+  new Chart(skillCtx, {
+    type: 'radar',
+    data: {
+      labels: ['Problem Solving', 'Systems', 'Data', 'Networking', 'AI'],
+      datasets: [{
+        label: 'Skill Score',
+        data: [85, 70, 80, 60, 65]
+      }]
+    }
+  });
+</script></body>
 </html>
