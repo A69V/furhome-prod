@@ -1,2 +1,2 @@
 # furhome-prod
-Prodection version of furhome
+Production version of furhome
