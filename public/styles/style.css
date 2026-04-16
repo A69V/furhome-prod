@@ -529,7 +529,6 @@ border-color: #a62121;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    float: right;
     margin-top: 10px;
     transition: background-color 0.3s;
   }
@@ -570,3 +569,116 @@ position: absolute;
 .nav-menu{
 display: none;
 }
+
+/* login signup modal */
+
+.login-signup-modal {
+      display: block;
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      z-index: 9999;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    #closeModal{
+      padding: 10px;
+    }
+    .login-signup-form-container {
+      background-color: white;
+      max-width: 900px;
+      max-height: 600px;
+      margin: 40px auto;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      align-self: center;
+      overflow: hidden;
+    }
+    .login-signup-form-container .img-slide{
+    width: 66%;
+    display: block;
+    text-align: center;
+    background-color: #a62121;
+    overflow: hidden;
+    }
+    .login-signup-form-container .img-slide img{
+      width: 100%;
+      height: 600px;
+      position: relative;
+    }
+    .login-signup-form{
+      width: 33%;
+      text-align: center;
+      padding: 30px 20px;
+      background-color: white;
+    }
+    .login-signup-form form{
+      display: block;
+    }
+    .login-signup-form h2{
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .login-signup-form p{
+      margin: 10px;
+    }
+    .login-signup-form form p{
+     display:block;
+     text-align: left;
+     margin: 0;
+     font-size: .9rem;
+    }
+    .login-signup-form p button{
+      background-color: transparent;
+      color:#a62121;
+      font-weight: bold;
+      font-size: 1rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+    .login-signup-form input[type="password"], input[type="text"] {
+      padding: 12px 0px;
+      font-size: 1rem;
+      border: 2px solid #d8d8d8;
+      border-radius: 5px;
+      width: 98%;
+      outline: none;
+      margin-bottom: 15px;
+      display: block;
+    }
+    .login-signup-form input:focus {
+      border-color: #a62121;
+    }
+.login-signup-form input[type="checkbox"]{
+  accent-color: #a62121;
+  margin-right: 5px;
+}
+.login-signup-form a{
+  color: #a62121;
+  font-weight: bold;
+  text-decoration: none;
+}
+#closeModal{
+  position: absolute;
+  right: 0;
+  border: none;
+  margin: 20px;
+  background-color: white;
+  padding: 9px 10px 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.branding-logo{
+  display: none;
+}
+.login-signup-form button[type="submit"]{
+  padding: 12px 30px;
+  width: 100%;
+  margin: 20px 0;
+}
+   .not-in-use {
+      display: none;
+    }

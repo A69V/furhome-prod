@@ -122,6 +122,28 @@ font-size: 1.5em;
 .thr-btn[title="Login"]{
 display: none;
 }
+.login-signup-modal{
+  background-color: white;
+}
+.login-signup-form-container{
+  max-width: 100%;
+}
+.login-signup-form-container .img-slide{
+display: none;
+}
+.login-signup-form{
+  border: none;
+  width: 100%;
+  margin-top: 15%;
+}
+.branding-logo{
+  display: inline-block;
+  width: 30%; 
+  position: absolute; 
+  left: 0;
+  top: 0; 
+  margin: 20px;
+}
 .hero-landing{
 flex-direction: column;
 align-items: center;

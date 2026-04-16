@@ -14,6 +14,59 @@
 </head>
 
 <body>
+  <!-- modals -->
+  <div class="login-signup-modal not-in-use">
+    <button id="closeModal" onclick="openCloseLoginModal()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+  <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+</svg></button>
+    <div class="login-signup-form-container">
+      <div class="img-slide">
+        <img src="./assets/images/login-signup-img.jpg" alt="">
+      </div>
+      <div class="login-signup-form">
+        <img src="./assets/images/logo_full.png"  alt="" class="branding-logo">
+        <div id="login-form">
+        <form action="/login" method="post" id="loginForm" class="">
+          <h2>Login</h2>
+          <input type="text" name="email"  placeholder="  Email/username">
+          <input type="password" name="password"  placeholder="  Password">
+          <input type="text" name="authcode" placeholder="  Enter OTP">
+          <p><input type="checkbox">Remember me for 7 days</p>
+          <button type="submit">Login</button>
+        </form>
+        <p>New user? <button id="enableSignUp">SignUp</button></p>
+      </div>
+        <div id="signup-form" class="not-in-use">
+        <form action="/signup" method="post" id="signupForm" >
+          <h2>SignUp</h2>
+          <input type="text" name="name" placeholder=" Full Name">
+          <input type="text" name="email" placeholder=" Email id">
+          <input type="password" name="password" placeholder=" Create Password">
+          <input type="password" name="conf-password" placeholder=" Confirm Password">
+          <input type="text" name="authcode" placeholder=" Enter OTP">
+          <p><input type="checkbox">I agree to all <a href="#">Terms</a> &amp; <a href="#">Privacy Policy</a></p>
+          <button type="submit">SignUp</button>
+        </form>
+        <p>Already registered? <button id="disableSignUp" >Login</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+  document.getElementById("disableSignUp").addEventListener('click', function(){
+    document.getElementById("login-form").classList.toggle("not-in-use");
+    document.getElementById("signup-form").classList.toggle("not-in-use");
+  })
+  document.getElementById("enableSignUp").addEventListener('click', function(){
+    document.getElementById("login-form").classList.toggle("not-in-use");
+    document.getElementById("signup-form").classList.toggle("not-in-use");
+  })
+  function openCloseLoginModal(){
+    document.querySelector(".login-signup-modal").classList.toggle("not-in-use");
+  }
+  
+</script>
+  <!-- visible contents -->
   <header>
     <div class="top-head">
       <div class="left-side-top-head">
@@ -59,9 +112,9 @@
 </svg>
 <span id="nofi-c-badge">9+</span></button>-->
         <button class="thr-btn" title="Shop"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-          fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-        </svg></button>
+            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+          </svg></button>
         <button class="thr-btn" title="My Favourites"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
             fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
             <path
@@ -69,13 +122,13 @@
           </svg>
           <span id="nofi-c-badge">9+</span></button>
 
-        <button class="thr-btn" title="Login"><span class="sr-th-ico"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+        <!--<button class="thr-btn" title="Login"><span class="sr-th-ico"><svg xmlns="http://www.w3.org/2000/svg" width="30"
               height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
               <path fill-rule="evenodd"
                 d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
-            </svg> </span><span class="sr-th-txt">Login</span></button>
-        <button class="thr-btn cart-btn"><span>SignUp</span></button>
+            </svg> </span><span class="sr-th-txt">Login</span></button>-->
+        <button class="thr-btn cart-btn" onclick="openCloseLoginModal()"><span>Login</span></button>
       </div>
     </div>
   </header>
@@ -151,7 +204,7 @@
     <div class="footer-message">
       <img src="assets/images/footer-message.png" alt="Adotp, do not Shop. Rehome, do not Abandon." draggable="false">
     </div>
-     <div class="footer">
+    <div class="footer not-in-use">
       <div class="footer-links">
         <div class="footer-links-child">
           <h3>Useful links</h3>
@@ -195,8 +248,8 @@
         </div>
 
       </div>
-      
-       
+
+
     </div>
     </div>
     <div class="footer-copyright">
