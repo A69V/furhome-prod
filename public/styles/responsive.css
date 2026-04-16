@@ -122,11 +122,12 @@ font-size: 1.5em;
 .thr-btn[title="Login"]{
 display: none;
 }
-.login-signup-modal{
+.back-shadow-login-modal{
   background-color: white;
 }
 .login-signup-form-container{
   max-width: 100%;
+  margin-top: 0;
 }
 .login-signup-form-container .img-slide{
 display: none;

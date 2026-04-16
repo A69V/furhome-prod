@@ -21,8 +21,17 @@ padding: 0px;
         }
 a{
 cursor: pointer;
+color: var(--primary-color);
+font-weight: bold;
+text-decoration: none;
 }
-
+a:hover{
+  text-decoration: underline;
+}
+header a{
+  font-weight: normal;
+  color: #333;
+}
 .top-head{
 top: 0;
 left: 0;
@@ -83,9 +92,9 @@ font-size: 0.9em;
   text-wrap: nowrap;
 }
 .footer-copyright{
-  opacity: 0.5; 
   font-size: 1wv; 
   margin: auto;
+  padding: 10px 0;
 }
 .footer-copyright p {
   border-top: 1px solid #fff;
@@ -578,12 +587,21 @@ display: none;
       width: 100vw;
       height: 100vh;
       z-index: 9999;
+    }
+    .back-shadow-login-modal{
       background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 100vh;
+      z-index: 10000;
+      position: fixed;
+      top: 0;
     }
     #closeModal{
       padding: 10px;
+      z-index: 10002;
     }
     .login-signup-form-container {
+      position: relative;
       background-color: white;
       max-width: 900px;
       max-height: 600px;
@@ -595,6 +613,7 @@ display: none;
       justify-content: center;
       align-self: center;
       overflow: hidden;
+      z-index: 10001;
     }
     .login-signup-form-container .img-slide{
     width: 66%;

@@ -1,0 +1,4092 @@
+[
+{
+  "affenpinscher": {
+    "id": 23195,
+    "breed_name": "affenpinscher",
+    "breed_name_display": "Affenpinscher",
+    "group": null,
+    "rank": 153,
+    "url": "https://www.akc.org/dog-breeds/affenpinscher/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Affenpinscher-running-outdoors-150x150.jpg",
+        "alt": "Affenpinscher running outdoors."
+      }
+    }
+  },
+  "afghan-hound": {
+    "id": 23209,
+    "breed_name": "afghan-hound",
+    "breed_name_display": "Afghan Hound",
+    "group": null,
+    "rank": 117,
+    "url": "https://www.akc.org/dog-breeds/afghan-hound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Afghan-Hound-standing-in-a-garden-150x150.jpg",
+        "alt": "Afghan Hound standing in profile in the garden."
+      }
+    }
+  },
+  "airedale-terrier": {
+    "id": 23224,
+    "breed_name": "airedale-terrier",
+    "breed_name_display": "Airedale Terrier",
+    "group": null,
+    "rank": 70,
+    "url": "https://www.akc.org/dog-breeds/airedale-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Airedale-Terrier-standing-stacked-outdoors-150x150.jpg",
+        "alt": "Airedale Terrier standing stacked in profile outdoors."
+      }
+    }
+  },
+  "akita": {
+    "id": 23239,
+    "breed_name": "akita",
+    "breed_name_display": "Akita",
+    "group": null,
+    "rank": 62,
+    "url": "https://www.akc.org/dog-breeds/akita/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Akita-standing-outdoors-in-the-summer-150x150.jpg",
+        "alt": "Akita standing outdoors in the summer."
+      }
+    }
+  },
+  "alaskan-klee-kai": {
+    "id": 121466,
+    "breed_name": "alaskan-klee-kai",
+    "breed_name_display": "Alaskan Klee Kai",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/alaskan-klee-kai/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2021/01/Alaskan-Klee-Kai-standing-in-the-snow-attached-to-a-harness1-150x150.jpg",
+        "alt": "Alaskan Klee Kai standing in the snow attached to a harness."
+      }
+    }
+  },
+  "alaskan-malamute": {
+    "id": 23249,
+    "breed_name": "alaskan-malamute",
+    "breed_name_display": "Alaskan Malamute",
+    "group": null,
+    "rank": 81,
+    "url": "https://www.akc.org/dog-breeds/alaskan-malamute/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Alaskan-Malamute-standing-in-the-grass1-150x150.jpg",
+        "alt": "Alaskan Malamute standing in profile in the grass."
+      }
+    }
+  },
+  "american-bulldog": {
+    "id": 96298,
+    "breed_name": "american-bulldog",
+    "breed_name_display": "American Bulldog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/american-bulldog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2020/01/American-Bulldog-standing-in-three-quarter-view-150x150.jpg",
+        "alt": "American Bulldog standing in the grass in three-quarter view."
+      }
+    }
+  },
+  "american-english-coonhound": {
+    "id": 23264,
+    "breed_name": "american-english-coonhound",
+    "breed_name_display": "American English Coonhound",
+    "group": null,
+    "rank": 182,
+    "url": "https://www.akc.org/dog-breeds/american-english-coonhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/American-English-Coonhound-howling-in-a-field1-150x150.jpg",
+        "alt": "American English Coonhound howling in a field."
+      }
+    }
+  },
+  "american-eskimo-dog": {
+    "id": 23278,
+    "breed_name": "american-eskimo-dog",
+    "breed_name_display": "American Eskimo Dog",
+    "group": null,
+    "rank": 124,
+    "url": "https://www.akc.org/dog-breeds/american-eskimo-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/American-Eskimo-Dog-standing-in-the-grass-in-bright-sunlight-150x150.jpg",
+        "alt": "American Eskimo Dog standing in the grass in bright sunlight."
+      }
+    }
+  },
+  "american-foxhound": {
+    "id": 23292,
+    "breed_name": "american-foxhound",
+    "breed_name_display": "American Foxhound",
+    "group": null,
+    "rank": 188,
+    "url": "https://www.akc.org/dog-breeds/american-foxhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2020/05/american-foxhound-pair-looking-up-150x150.jpg",
+        "alt": "Pair of American Foxhounds standing outdoors looking up at the viewer."
+      }
+    }
+  },
+  "american-hairless-terrier": {
+    "id": 23307,
+    "breed_name": "american-hairless-terrier",
+    "breed_name_display": "American Hairless Terrier",
+    "group": null,
+    "rank": 108,
+    "url": "https://www.akc.org/dog-breeds/american-hairless-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/American-Hairless-Terrier-standing-in-the-grass-on-lead-150x150.jpg",
+        "alt": "American Hairless Terrier on a leash standing in the grass."
+      }
+    }
+  },
+  "american-leopard-hound": {
+    "id": 23322,
+    "breed_name": "american-leopard-hound",
+    "breed_name_display": "American Leopard Hound",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/american-leopard-hound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/American-Leopard-Hound-On-White-01-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "american-staffordshire-terrier": {
+    "id": 23324,
+    "breed_name": "american-staffordshire-terrier",
+    "breed_name_display": "American Staffordshire Terrier",
+    "group": null,
+    "rank": 97,
+    "url": "https://www.akc.org/dog-breeds/american-staffordshire-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/AmStaff.01-150x150.jpg",
+        "alt": "American Staffordshire Terrier standing outdoors facing left."
+      }
+    }
+  },
+  "american-water-spaniel": {
+    "id": 23339,
+    "breed_name": "american-water-spaniel",
+    "breed_name_display": "American Water Spaniel",
+    "group": null,
+    "rank": 176,
+    "url": "https://www.akc.org/dog-breeds/american-water-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/American-Water-Spaniel.1-150x150.jpg",
+        "alt": "American Water Spaniel standing in three-quarter view facing left, head turned forward, on a white background."
+      }
+    }
+  },
+  "anatolian-shepherd-dog": {
+    "id": 23354,
+    "breed_name": "anatolian-shepherd-dog",
+    "breed_name_display": "Anatolian Shepherd Dog",
+    "group": null,
+    "rank": 88,
+    "url": "https://www.akc.org/dog-breeds/anatolian-shepherd-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Anatolian-Shepherd-Dog-On-White-01-150x150.jpg",
+        "alt": "Anatolian Shepherd Dog standing in a rocky, wooded landscape."
+      }
+    }
+  },
+  "appenzeller-sennenhund": {
+    "id": 23363,
+    "breed_name": "appenzeller-sennenhund",
+    "breed_name_display": "Appenzeller Sennenhund",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/appenzeller-sennenhund/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/AdobeStock_11176134-150x150.jpg",
+        "alt": "Three Appenzeller Sennenhunde dogs sitting outdoors."
+      }
+    }
+  },
+  "australian-cattle-dog": {
+    "id": 23364,
+    "breed_name": "australian-cattle-dog",
+    "breed_name_display": "Australian Cattle Dog",
+    "group": null,
+    "rank": 47,
+    "url": "https://www.akc.org/dog-breeds/australian-cattle-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Australian-Cattle-Dog-laying-down-in-the-grass-150x150.jpg",
+        "alt": "Australian Cattle Dog laying down in the grass."
+      }
+    }
+  },
+  "australian-kelpie": {
+    "id": 23377,
+    "breed_name": "australian-kelpie",
+    "breed_name_display": "Australian Kelpie",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/australian-kelpie/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Australian-Kelpie-herding-sheep-150x150.jpg",
+        "alt": "Brown Australian Kelpie herding sheep."
+      }
+    }
+  },
+  "australian-shepherd": {
+    "id": 23378,
+    "breed_name": "australian-shepherd",
+    "breed_name_display": "Australian Shepherd",
+    "group": null,
+    "rank": 12,
+    "url": "https://www.akc.org/dog-breeds/australian-shepherd/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Australian-Shepherd.1-150x150.jpg",
+        "alt": "Australian Shepherd outdoors with a small toy basketball in its mouth."
+      }
+    }
+  },
+  "australian-stumpy-tail-cattle-dog": {
+    "id": 57316,
+    "breed_name": "australian-stumpy-tail-cattle-dog",
+    "breed_name_display": "Australian Stumpy Tail Cattle Dog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/australian-stumpy-tail-cattle-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2018/07/GettyImages-454288321-150x150.jpg",
+        "alt": "Australian Stumpy-Tail Cattle Dog standing outdoors facing right."
+      }
+    }
+  },
+  "australian-terrier": {
+    "id": 23399,
+    "breed_name": "australian-terrier",
+    "breed_name_display": "Australian Terrier",
+    "group": null,
+    "rank": 150,
+    "url": "https://www.akc.org/dog-breeds/australian-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Australian-Terrier-standing-in-the-garden-150x150.jpg",
+        "alt": "Australian Terrier standing in the garden"
+      }
+    }
+  },
+  "azawakh": {
+    "id": 23414,
+    "breed_name": "azawakh",
+    "breed_name_display": "Azawakh",
+    "group": null,
+    "rank": 195,
+    "url": "https://www.akc.org/dog-breeds/azawakh/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Azawakh_178091272-150x150.jpg",
+        "alt": "Azawakh jogging in a green grassy field."
+      }
+    }
+  },
+  "barbado-da-terceira": {
+    "id": 123084,
+    "breed_name": "barbado-da-terceira",
+    "breed_name_display": "Barbado da Terceira",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/barbado-da-terceira/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2021/02/Barbado-da-Terceira-standing-backyard-200x200.jpg",
+        "alt": "Barbado da Terceira standing in the backyard."
+      }
+    }
+  },
+  "barbet": {
+    "id": 23417,
+    "breed_name": "barbet",
+    "breed_name_display": "Barbet",
+    "group": null,
+    "rank": 129,
+    "url": "https://www.akc.org/dog-breeds/barbet/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Barbet-standing-in-the-snow-150x150.jpg",
+        "alt": "Barbet standing in the snow."
+      }
+    }
+  },
+  "basenji": {
+    "id": 23420,
+    "breed_name": "basenji",
+    "breed_name_display": "Basenji",
+    "group": null,
+    "rank": 92,
+    "url": "https://www.akc.org/dog-breeds/basenji/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Basenji-running-through-a-field-150x150.jpg",
+        "alt": "Basenji running through a field."
+      }
+    }
+  },
+  "basset-fauve-de-bretagne": {
+    "id": 23435,
+    "breed_name": "basset-fauve-de-bretagne",
+    "breed_name_display": "Basset Fauve de Bretagne",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/basset-fauve-de-bretagne/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/AdobeStock_23183632-150x150.jpg",
+        "alt": "Basset Fauve de Bretagne standing on a beach."
+      }
+    }
+  },
+  "basset-hound": {
+    "id": 23436,
+    "breed_name": "basset-hound",
+    "breed_name_display": "Basset Hound",
+    "group": null,
+    "rank": 34,
+    "url": "https://www.akc.org/dog-breeds/basset-hound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Basset-Hound-standing-in-the-garden-150x150.jpg",
+        "alt": "Basset Hound standing in the garden."
+      }
+    }
+  },
+  "bavarian-mountain-scent-hound": {
+    "id": 23451,
+    "breed_name": "bavarian-mountain-scent-hound",
+    "breed_name_display": "Bavarian Mountain Scent Hound",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/bavarian-mountain-scent-hound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bavarian.190758538-150x150.jpg",
+        "alt": "Bavarian Mountain Scent Hound"
+      }
+    }
+  },
+  "beagle": {
+    "id": 23453,
+    "breed_name": "beagle",
+    "breed_name_display": "Beagle",
+    "group": null,
+    "rank": 7,
+    "url": "https://www.akc.org/dog-breeds/beagle/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Beagles-standing-in-a-frosty-field-on-a-cold-morning-150x150.jpg",
+        "alt": "Beagles standing in a frosty field on a cold morning."
+      }
+    }
+  },
+  "bearded-collie": {
+    "id": 23474,
+    "breed_name": "bearded-collie",
+    "breed_name_display": "Bearded Collie",
+    "group": null,
+    "rank": 140,
+    "url": "https://www.akc.org/dog-breeds/bearded-collie/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bearded-Collie-standing-in-the-grass-150x150.jpg",
+        "alt": "Bearded Collie standing in a field."
+      }
+    }
+  },
+  "beauceron": {
+    "id": 23489,
+    "breed_name": "beauceron",
+    "breed_name_display": "Beauceron",
+    "group": null,
+    "rank": 102,
+    "url": "https://www.akc.org/dog-breeds/beauceron/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Beauceron-On-White-03-150x150.jpg",
+        "alt": "Beauceron sitting in three-quarter view facing left."
+      }
+    }
+  },
+  "bedlington-terrier": {
+    "id": 23504,
+    "breed_name": "bedlington-terrier",
+    "breed_name_display": "Bedlington Terrier",
+    "group": null,
+    "rank": 147,
+    "url": "https://www.akc.org/dog-breeds/bedlington-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bedlington-Terrier-standing-outdoors-150x150.jpg",
+        "alt": "Bedlington Terrier standing outdoors."
+      }
+    }
+  },
+  "belgian-laekenois": {
+    "id": 23519,
+    "breed_name": "belgian-laekenois",
+    "breed_name_display": "Belgian Laekenois",
+    "group": null,
+    "rank": 196,
+    "url": "https://www.akc.org/dog-breeds/belgian-laekenois/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Belgian-Laekenois-standing-in-profile-in-a-field-150x150.jpg",
+        "alt": "Belgian Laekenois standing in profile in a field."
+      }
+    }
+  },
+  "belgian-malinois": {
+    "id": 23522,
+    "breed_name": "belgian-malinois",
+    "breed_name_display": "Belgian Malinois",
+    "group": null,
+    "rank": 32,
+    "url": "https://www.akc.org/dog-breeds/belgian-malinois/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Belgian-Malinois-On-White-01-150x150.jpg",
+        "alt": "Belgian Malinois standing in three-quarter view."
+      }
+    }
+  },
+  "belgian-sheepdog": {
+    "id": 23537,
+    "breed_name": "belgian-sheepdog",
+    "breed_name_display": "Belgian Sheepdog",
+    "group": null,
+    "rank": 120,
+    "url": "https://www.akc.org/dog-breeds/belgian-sheepdog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Belgian-Sheepdog-standing-in-a-field-150x150.jpg",
+        "alt": "Belgian Sheepdog standing in a field."
+      }
+    }
+  },
+  "belgian-tervuren": {
+    "id": 23552,
+    "breed_name": "belgian-tervuren",
+    "breed_name_display": "Belgian Tervuren",
+    "group": null,
+    "rank": 115,
+    "url": "https://www.akc.org/dog-breeds/belgian-tervuren/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Belgian-Tervuren.3-150x150.jpg",
+        "alt": "Belgian Tervuren standing in a field with yellow wildflowers."
+      }
+    }
+  },
+  "bergamasco-sheepdog": {
+    "id": 23567,
+    "breed_name": "bergamasco-sheepdog",
+    "breed_name_display": "Bergamasco Sheepdog",
+    "group": null,
+    "rank": 183,
+    "url": "https://www.akc.org/dog-breeds/bergamasco-sheepdog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bergamasco-Sheepdog-standing-in-a-field-in-the-mountains-150x150.jpg",
+        "alt": "Bergamasco Sheepdog standing in a field in the mountains."
+      }
+    }
+  },
+  "berger-picard": {
+    "id": 23569,
+    "breed_name": "berger-picard",
+    "breed_name_display": "Berger Picard",
+    "group": null,
+    "rank": 166,
+    "url": "https://www.akc.org/dog-breeds/berger-picard/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Berger-Picard-standing-in-a-field-150x150.jpg",
+        "alt": "Berger Picard standing in a pasture."
+      }
+    }
+  },
+  "bernese-mountain-dog": {
+    "id": 23582,
+    "breed_name": "bernese-mountain-dog",
+    "breed_name_display": "Bernese Mountain Dog",
+    "group": null,
+    "rank": 20,
+    "url": "https://www.akc.org/dog-breeds/bernese-mountain-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bernese-Mountain-Dog-On-White-01-150x150.jpg",
+        "alt": "Bernese Mountain Dog standing in three-quarter view on a white background."
+      }
+    }
+  },
+  "bichon-frise": {
+    "id": 23597,
+    "breed_name": "bichon-frise",
+    "breed_name_display": "Bichon Frise",
+    "group": null,
+    "rank": 49,
+    "url": "https://www.akc.org/dog-breeds/bichon-frise/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bichon-Frise-On-White-03-150x150.jpg",
+        "alt": "Bichon Frise laying down in three-quarter view facing forward."
+      }
+    }
+  },
+  "biewer-terrier": {
+    "id": 23608,
+    "breed_name": "biewer-terrier",
+    "breed_name_display": "Biewer Terrier",
+    "group": null,
+    "rank": 74,
+    "url": "https://www.akc.org/dog-breeds/biewer-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Biewer-Terrier-standing-on-a-white-background1-150x150.jpg",
+        "alt": "Biewer Terrier standing in profile on a white background."
+      }
+    }
+  },
+  "black-and-tan-coonhound": {
+    "id": 23610,
+    "breed_name": "black-and-tan-coonhound",
+    "breed_name_display": "Black and Tan Coonhound",
+    "group": null,
+    "rank": 137,
+    "url": "https://www.akc.org/dog-breeds/black-and-tan-coonhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Black-and-Tan-Coonhound-On-White-031-150x150.jpg",
+        "alt": "Black and Tan Coonhound sitting facing forward."
+      }
+    }
+  },
+  "black-russian-terrier": {
+    "id": 23622,
+    "breed_name": "black-russian-terrier",
+    "breed_name_display": "Black Russian Terrier",
+    "group": null,
+    "rank": 154,
+    "url": "https://www.akc.org/dog-breeds/black-russian-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Black-Russian-Terrier-standing-outdoors-150x150.jpg",
+        "alt": "Black Russian Terrier standing stacked outdoors with an undocked tail."
+      }
+    }
+  },
+  "bloodhound": {
+    "id": 23636,
+    "breed_name": "bloodhound",
+    "breed_name_display": "Bloodhound",
+    "group": null,
+    "rank": 59,
+    "url": "https://www.akc.org/dog-breeds/bloodhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bloodhound-on-a-scent-in-the-woods-150x150.jpg",
+        "alt": "Bloodhound on a scent in the woods."
+      }
+    }
+  },
+  "blue-picardy-spaniel": {
+    "id": 192757,
+    "breed_name": "blue-picardy-spaniel",
+    "breed_name_display": "Blue Picardy Spaniel",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/blue-picardy-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2024/07/Blue-Picardy-Spaniel-standing-outdoors-200x200.jpg",
+        "alt": "Blue Picardy Spaniel standing in profile in the park."
+      }
+    }
+  },
+  "bluetick-coonhound": {
+    "id": 23651,
+    "breed_name": "bluetick-coonhound",
+    "breed_name_display": "Bluetick Coonhound",
+    "group": null,
+    "rank": 132,
+    "url": "https://www.akc.org/dog-breeds/bluetick-coonhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bluetick-Coonhound-150x150.jpg",
+        "alt": "Bluetick Coonhound standing in the forest in Autumn."
+      }
+    }
+  },
+  "boerboel": {
+    "id": 23666,
+    "breed_name": "boerboel",
+    "breed_name_display": "Boerboel",
+    "group": null,
+    "rank": 112,
+    "url": "https://www.akc.org/dog-breeds/boerboel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Boerboel-On-White-01-150x150.jpg",
+        "alt": "Boerboel standing in three-quarter view."
+      }
+    }
+  },
+  "bohemian-shepherd": {
+    "id": 81748,
+    "breed_name": "bohemian-shepherd",
+    "breed_name_display": "Bohemian Shepherd",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/bohemian-shepherd/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2019/06/Bohemian-Shepherd-standing-in-profile-in-a-field-of-tall-brown-grasses-150x150.jpg",
+        "alt": "Bohemian Shepherd standing in profile in a field of tall brown grasses."
+      }
+    }
+  },
+  "bolognese": {
+    "id": 23681,
+    "breed_name": "bolognese",
+    "breed_name_display": "Bolognese",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/bolognese/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bolognese-standing-in-profile-outdoors-150x150.jpg",
+        "alt": "Bolognese standing in profile outdoors."
+      }
+    }
+  },
+  "border-collie": {
+    "id": 23684,
+    "breed_name": "border-collie",
+    "breed_name_display": "Border Collie",
+    "group": null,
+    "rank": 26,
+    "url": "https://www.akc.org/dog-breeds/border-collie/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Border-Collie-On-White-01-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "border-terrier": {
+    "id": 23699,
+    "breed_name": "border-terrier",
+    "breed_name_display": "Border Terrier",
+    "group": null,
+    "rank": 91,
+    "url": "https://www.akc.org/dog-breeds/border-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Border-Terrier-On-White-03-150x150.jpg",
+        "alt": "Border Terrier sitting facing forward."
+      }
+    }
+  },
+  "borzoi": {
+    "id": 23714,
+    "breed_name": "borzoi",
+    "breed_name_display": "Borzoi",
+    "group": null,
+    "rank": 99,
+    "url": "https://www.akc.org/dog-breeds/borzoi/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Borzoi-running-outdoors-150x150.jpg",
+        "alt": "Borzoi running in a field."
+      }
+    }
+  },
+  "boston-terrier": {
+    "id": 23729,
+    "breed_name": "boston-terrier",
+    "breed_name_display": "Boston Terrier",
+    "group": null,
+    "rank": 23,
+    "url": "https://www.akc.org/dog-breeds/boston-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Boston-Terrier-head-portrait-outdoors1-150x150.jpg",
+        "alt": "Boston Terrier head portrait outdoors."
+      }
+    }
+  },
+  "bouvier-de-ardennes": {
+    "id": 192754,
+    "breed_name": "bouvier-de-ardennes",
+    "breed_name_display": "Bouvier des Ardennes",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/bouvier-de-ardennes/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2024/07/Bouvier-des-Ardennes_standing_outdoors1-200x200.jpg",
+        "alt": "Bouvier des Ardennes standing outdoors."
+      }
+    }
+  },
+  "bouvier-des-flandres": {
+    "id": 23743,
+    "breed_name": "bouvier-des-flandres",
+    "breed_name_display": "Bouvier des Flandres",
+    "group": null,
+    "rank": 100,
+    "url": "https://www.akc.org/dog-breeds/bouvier-des-flandres/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bouvier-des-Flandres-standing-atop-a-hill-150x150.jpg",
+        "alt": "Bouvier des Flandres standing atop a hill."
+      }
+    }
+  },
+  "boxer": {
+    "id": 23758,
+    "breed_name": "boxer",
+    "breed_name_display": "Boxer",
+    "group": null,
+    "rank": 18,
+    "url": "https://www.akc.org/dog-breeds/boxer/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Boxer.1-150x150.jpg",
+        "alt": "Boxer standing in profile facing left."
+      }
+    }
+  },
+  "boykin-spaniel": {
+    "id": 23779,
+    "breed_name": "boykin-spaniel",
+    "breed_name_display": "Boykin Spaniel",
+    "group": null,
+    "rank": 64,
+    "url": "https://www.akc.org/dog-breeds/boykin-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Boykin-Spaniel-holding-a-dummy-toy-150x150.jpg",
+        "alt": "Boykin Spaniel holding a dummy toy in a field."
+      }
+    }
+  },
+  "bracco-italiano": {
+    "id": 23794,
+    "breed_name": "bracco-italiano",
+    "breed_name_display": "Bracco Italiano",
+    "group": null,
+    "rank": 136,
+    "url": "https://www.akc.org/dog-breeds/bracco-italiano/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bracco.7-150x150.jpg",
+        "alt": "Bracco Italiano standing sideways facing left outdoors in grass."
+      }
+    }
+  },
+  "braque-du-bourbonnais": {
+    "id": 23797,
+    "breed_name": "braque-du-bourbonnais",
+    "breed_name_display": "Braque du Bourbonnais",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/braque-du-bourbonnais/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bourbonnais-150x150.jpg",
+        "alt": "Braque du Bourbonnais standing outdoors."
+      }
+    }
+  },
+  "braque-francais-pyrenean": {
+    "id": 23799,
+    "breed_name": "braque-francais-pyrenean",
+    "breed_name_display": "Braque Francais Pyrenean",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/braque-francais-pyrenean/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Braque-Francais-Pyrenean-150x150.jpg",
+        "alt": "Braque Francais Pyrenean in the winter."
+      }
+    }
+  },
+  "braque-saint-germain": {
+    "id": 173124,
+    "breed_name": "braque-saint-germain",
+    "breed_name_display": "Braque Saint-Germain",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/braque-saint-germain/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2023/07/Braque-Saint-Germain-standing-profile-outdoors-200x200.jpg",
+        "alt": "Braque Saint-Germain standing in profile outdoors."
+      }
+    }
+  },
+  "brazilian-terrier": {
+    "id": 173113,
+    "breed_name": "brazilian-terrier",
+    "breed_name_display": "Brazilian Terrier",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/brazilian-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2023/07/Brazilian-Terrier-standing-in-the-yard-outdoors-150x150.jpg",
+        "alt": "Brazilian Terrier standing in the yard outdoors."
+      }
+    }
+  },
+  "briard": {
+    "id": 23800,
+    "breed_name": "briard",
+    "breed_name_display": "Briard",
+    "group": null,
+    "rank": 172,
+    "url": "https://www.akc.org/dog-breeds/briard/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Briard-standing-in-the-grass-150x150.jpg",
+        "alt": "Briard standing in the grass."
+      }
+    }
+  },
+  "brittany": {
+    "id": 23814,
+    "breed_name": "brittany",
+    "breed_name_display": "Brittany",
+    "group": null,
+    "rank": 31,
+    "url": "https://www.akc.org/dog-breeds/brittany/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Brittany-1-150x150.jpg",
+        "alt": "Brittany wading through water and reeds, hunting."
+      }
+    }
+  },
+  "broholmer": {
+    "id": 23829,
+    "breed_name": "broholmer",
+    "breed_name_display": "Broholmer",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/broholmer/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Broholmer-laying-down-in-the-park-150x150.jpg",
+        "alt": "Broholmer laying down in the park."
+      }
+    }
+  },
+  "brussels-griffon": {
+    "id": 23832,
+    "breed_name": "brussels-griffon",
+    "breed_name_display": "Brussels Griffon",
+    "group": null,
+    "rank": 82,
+    "url": "https://www.akc.org/dog-breeds/brussels-griffon/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Brussels-Griffon-sitting-outdoors-150x150.jpg",
+        "alt": "Two Brussels Griffons sitting side by side outdoors."
+      }
+    }
+  },
+  "bull-terrier": {
+    "id": 23840,
+    "breed_name": "bull-terrier",
+    "breed_name_display": "Bull Terrier",
+    "group": null,
+    "rank": 86,
+    "url": "https://www.akc.org/dog-breeds/bull-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/bull-terrier-on-white-10-150x150.jpg",
+        "alt": "Bull Terrier standing sideways outdoors facing left."
+      }
+    }
+  },
+  "bulldog": {
+    "id": 23854,
+    "breed_name": "bulldog",
+    "breed_name_display": "Bulldog",
+    "group": null,
+    "rank": 10,
+    "url": "https://www.akc.org/dog-breeds/bulldog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bulldog-standing-in-the-grass-150x150.jpg",
+        "alt": "Bulldog standing in the grass."
+      }
+    }
+  },
+  "bullmastiff": {
+    "id": 23875,
+    "breed_name": "bullmastiff",
+    "breed_name_display": "Bullmastiff",
+    "group": null,
+    "rank": 78,
+    "url": "https://www.akc.org/dog-breeds/bullmastiff/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Bullmastiff-standing-in-a-field-150x150.jpg",
+        "alt": "Bullmastiff standing in a field."
+      }
+    }
+  },
+  "cairn-terrier": {
+    "id": 23890,
+    "breed_name": "cairn-terrier",
+    "breed_name_display": "Cairn Terrier",
+    "group": null,
+    "rank": 68,
+    "url": "https://www.akc.org/dog-breeds/cairn-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Cairn-Terrier-sitting-in-the-grass-150x150.jpg",
+        "alt": "Cairn Terrier sitting in the grass."
+      }
+    }
+  },
+  "calupoh": {
+    "id": 200502,
+    "breed_name": "calupoh",
+    "breed_name_display": "Calupoh",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/calupoh/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2025/02/Calupoh-standing-outdoors-200x200.jpg",
+        "alt": "Calupoh standing in profile outdoors."
+      }
+    }
+  },
+  "canaan-dog": {
+    "id": 23905,
+    "breed_name": "canaan-dog",
+    "breed_name_display": "Canaan Dog",
+    "group": null,
+    "rank": 193,
+    "url": "https://www.akc.org/dog-breeds/canaan-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Canaan-Dog-On-White-01-150x150.jpg",
+        "alt": "Canaan Dog standing sideways facing left, head turned right"
+      }
+    }
+  },
+  "canadian-eskimo-dog": {
+    "id": 198099,
+    "breed_name": "canadian-eskimo-dog",
+    "breed_name_display": "Canadian Eskimo Dog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/canadian-eskimo-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2025/01/Canadian-Eskimo-Dog-playing-yard-200x200.jpg",
+        "alt": "Canadian Eskimo Dog running and playing with a puppy in the yard."
+      }
+    }
+  },
+  "cane-corso": {
+    "id": 23914,
+    "breed_name": "cane-corso",
+    "breed_name_display": "Cane Corso",
+    "group": null,
+    "rank": 11,
+    "url": "https://www.akc.org/dog-breeds/cane-corso/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Cane-Corso-AKC-121516-296-150x150.jpg",
+        "alt": "Cane Corso head and shoulders."
+      }
+    }
+  },
+  "cardigan-welsh-corgi": {
+    "id": 23929,
+    "breed_name": "cardigan-welsh-corgi",
+    "breed_name_display": "Cardigan Welsh Corgi",
+    "group": null,
+    "rank": 65,
+    "url": "https://www.akc.org/dog-breeds/cardigan-welsh-corgi/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Cardigan-Welsh-Corgi-on-White-111-150x150.jpg",
+        "alt": "Cardigan Welsh Corgi sitting in three-quarter view looking up."
+      }
+    }
+  },
+  "carolina-dog": {
+    "id": 23944,
+    "breed_name": "carolina-dog",
+    "breed_name_display": "Carolina Dog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/carolina-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Carolina-Dog-standing-outdoors-150x150.jpg",
+        "alt": "Carolina Dog standing outdoors in profile."
+      }
+    }
+  },
+  "catahoula-leopard-dog": {
+    "id": 23946,
+    "breed_name": "catahoula-leopard-dog",
+    "breed_name_display": "Catahoula Leopard Dog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/catahoula-leopard-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Catahoula-Leopard-Dog-on-White-02-150x150.jpg",
+        "alt": "Catahoula Leopard Dog standing outdoors on the beach."
+      }
+    }
+  },
+  "caucasian-shepherd-dog": {
+    "id": 23949,
+    "breed_name": "caucasian-shepherd-dog",
+    "breed_name_display": "Caucasian Shepherd Dog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/caucasian-shepherd-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/GettyImages-1095398138-150x150.jpg",
+        "alt": "Caucasian Shepherd Dog"
+      }
+    }
+  },
+  "cavalier-king-charles-spaniel": {
+    "id": 23951,
+    "breed_name": "cavalier-king-charles-spaniel",
+    "breed_name_display": "Cavalier King Charles Spaniel",
+    "group": null,
+    "rank": 12,
+    "url": "https://www.akc.org/dog-breeds/cavalier-king-charles-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Cavalier-King-Charles-Spaniel-standing-in-the-grass-150x150.jpg",
+        "alt": "Cavalier King Charles Spaniel standing outdoors."
+      }
+    }
+  },
+  "central-asian-shepherd-dog": {
+    "id": 23972,
+    "breed_name": "central-asian-shepherd-dog",
+    "breed_name_display": "Central Asian Shepherd Dog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/central-asian-shepherd-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Central-Asian-Shepherd-Dog-on-White-02-150x150.jpg",
+        "alt": "Central Asian Shepherd Dog standing outdoors on a dirt path facing left, head turned forward"
+      }
+    }
+  },
+  "cesky-terrier": {
+    "id": 23975,
+    "breed_name": "cesky-terrier",
+    "breed_name_display": "Cesky Terrier",
+    "group": null,
+    "rank": 197,
+    "url": "https://www.akc.org/dog-breeds/cesky-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Cesky-Terrier-on-White-011-150x150.jpg",
+        "alt": "Cesky Terrier standing in three-quarter view"
+      }
+    }
+  },
+  "chesapeake-bay-retriever": {
+    "id": 23990,
+    "breed_name": "chesapeake-bay-retriever",
+    "breed_name_display": "Chesapeake Bay Retriever",
+    "group": null,
+    "rank": 56,
+    "url": "https://www.akc.org/dog-breeds/chesapeake-bay-retriever/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Chesapeake-Bay-Retriever-hunting-150x150.jpg",
+        "alt": "Chesapeake Bay Retriever with a bird in its mouth."
+      }
+    }
+  },
+  "chihuahua": {
+    "id": 24001,
+    "breed_name": "chihuahua",
+    "breed_name_display": "Chihuahua",
+    "group": null,
+    "rank": 24,
+    "url": "https://www.akc.org/dog-breeds/chihuahua/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Chihuahua-standing-in-three-quarter-view-150x150.jpg",
+        "alt": "Chihuahua standing in three-quarter view."
+      }
+    }
+  },
+  "chinese-crested": {
+    "id": 24016,
+    "breed_name": "chinese-crested",
+    "breed_name_display": "Chinese Crested",
+    "group": null,
+    "rank": 72,
+    "url": "https://www.akc.org/dog-breeds/chinese-crested/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Chinese-Crested-On-White-01-150x150.jpg",
+        "alt": "Chinese Crested standing in three-quarter view."
+      }
+    }
+  },
+  "chinese-shar-pei": {
+    "id": 24031,
+    "breed_name": "chinese-shar-pei",
+    "breed_name_display": "Chinese Shar-Pei",
+    "group": null,
+    "rank": 80,
+    "url": "https://www.akc.org/dog-breeds/chinese-shar-pei/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Chinese-Shar-Pei-standing-on-the-sidewalk-150x150.jpg",
+        "alt": "Chinese Shar Pei standing on the sidewalk."
+      }
+    }
+  },
+  "chinook": {
+    "id": 24045,
+    "breed_name": "chinook",
+    "breed_name_display": "Chinook",
+    "group": null,
+    "rank": 198,
+    "url": "https://www.akc.org/dog-breeds/chinook/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Chinook-On-White-03-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "chow-chow": {
+    "id": 24060,
+    "breed_name": "chow-chow",
+    "breed_name_display": "Chow Chow",
+    "group": null,
+    "rank": 94,
+    "url": "https://www.akc.org/dog-breeds/chow-chow/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Chow-Chow-On-White-01-150x150.jpg",
+        "alt": "Chow Chow standing facing left, head turned forward"
+      }
+    }
+  },
+  "cirneco-delletna": {
+    "id": 24075,
+    "breed_name": "cirneco-delletna",
+    "breed_name_display": "Cirneco dell’Etna",
+    "group": null,
+    "rank": 184,
+    "url": "https://www.akc.org/dog-breeds/cirneco-delletna/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Cirneco-dellEtna-hunting-150x150.jpg",
+        "alt": "Cirneco dell'Etna hunting."
+      }
+    }
+  },
+  "clumber-spaniel": {
+    "id": 24077,
+    "breed_name": "clumber-spaniel",
+    "breed_name_display": "Clumber Spaniel",
+    "group": null,
+    "rank": 133,
+    "url": "https://www.akc.org/dog-breeds/clumber-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Clumber-Spaniel-On-White-011-150x150.jpg",
+        "alt": "Clumber Spaniel standing in three-quarter view"
+      }
+    }
+  },
+  "cocker-spaniel": {
+    "id": 24092,
+    "breed_name": "cocker-spaniel",
+    "breed_name_display": "Cocker Spaniel",
+    "group": null,
+    "rank": 33,
+    "url": "https://www.akc.org/dog-breeds/cocker-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Cocker-Spaniel-running-in-the-yard-150x150.jpg",
+        "alt": "Cocker Spaniel running in the yard."
+      }
+    }
+  },
+  "collie": {
+    "id": 24112,
+    "breed_name": "collie",
+    "breed_name_display": "Collie",
+    "group": null,
+    "rank": 39,
+    "url": "https://www.akc.org/dog-breeds/collie/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Collie-standing-in-a-field-150x150.jpg",
+        "alt": "Collie standing in a field of wild grasses."
+      }
+    }
+  },
+  "coton-de-tulear": {
+    "id": 24132,
+    "breed_name": "coton-de-tulear",
+    "breed_name_display": "Coton de Tulear",
+    "group": null,
+    "rank": 79,
+    "url": "https://www.akc.org/dog-breeds/coton-de-tulear/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Coton-de-Tulear-standing-in-the-grass-150x150.jpg",
+        "alt": "Coton de Tulear standing in the grass."
+      }
+    }
+  },
+  "croatian-sheepdog": {
+    "id": 48326,
+    "breed_name": "croatian-sheepdog",
+    "breed_name_display": "Croatian Sheepdog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/croatian-sheepdog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2018/05/Croatian-Sheepdog-150x150.jpg",
+        "alt": "Croatian Sheepdog standing in a field."
+      }
+    }
+  },
+  "curly-coated-retriever": {
+    "id": 24146,
+    "breed_name": "curly-coated-retriever",
+    "breed_name_display": "Curly-Coated Retriever",
+    "group": null,
+    "rank": 168,
+    "url": "https://www.akc.org/dog-breeds/curly-coated-retriever/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Curly-Coated-Retriever-standing-stacked-in-a-field-at-sunset.20200418030641387-150x150.jpg",
+        "alt": "Curly Coated Retriever standing stacked in a field at sunset."
+      }
+    }
+  },
+  "czechoslovakian-vlciak": {
+    "id": 24160,
+    "breed_name": "czechoslovakian-vlciak",
+    "breed_name_display": "Czechoslovakian Vlciak",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/czechoslovakian-vlciak/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Czechoslovakian-Vlcak.179296809-150x150.jpg",
+        "alt": "Czechoslovakian Vlcak"
+      }
+    }
+  },
+  "dachshund": {
+    "id": 24162,
+    "breed_name": "dachshund",
+    "breed_name_display": "Dachshund",
+    "group": null,
+    "rank": 5,
+    "url": "https://www.akc.org/dog-breeds/dachshund/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Longhaired-Dachshund-standing-outdoors-150x150.jpg",
+        "alt": "Longhaired Dachshund standing outdoors."
+      }
+    }
+  },
+  "dalmatian": {
+    "id": 24183,
+    "breed_name": "dalmatian",
+    "breed_name_display": "Dalmatian",
+    "group": null,
+    "rank": 50,
+    "url": "https://www.akc.org/dog-breeds/dalmatian/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Dalmatian-On-White-01-150x150.jpg",
+        "alt": "Dalmatian standing in three-quarter view facing forward"
+      }
+    }
+  },
+  "dandie-dinmont-terrier": {
+    "id": 24198,
+    "breed_name": "dandie-dinmont-terrier",
+    "breed_name_display": "Dandie Dinmont Terrier",
+    "group": null,
+    "rank": 186,
+    "url": "https://www.akc.org/dog-breeds/dandie-dinmont-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Dandie-Dinmont-Terrier-slide-6-150x150.jpg",
+        "alt": "Dandie Dinmont Terrier standing sideways in grass facing left"
+      }
+    }
+  },
+  "danish-swedish-farmdog": {
+    "id": 24211,
+    "breed_name": "danish-swedish-farmdog",
+    "breed_name_display": "Danish-Swedish Farmdog",
+    "group": null,
+    "rank": 170,
+    "url": "https://www.akc.org/dog-breeds/danish-swedish-farmdog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Danish-Swedish-Farmdog-standing-outdoors-at-dusk-150x150.jpg",
+        "alt": "Danish-Swedish Farmdog standing outdoors at dusk."
+      }
+    }
+  },
+  "deutscher-wachtelhund": {
+    "id": 24213,
+    "breed_name": "deutscher-wachtelhund",
+    "breed_name_display": "Deutscher Wachtelhund",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/deutscher-wachtelhund/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/AdobeStock_1083293871-150x150.jpg",
+        "alt": "Deutscher Wachtelhund standing outdoors facing left."
+      }
+    }
+  },
+  "doberman-pinscher": {
+    "id": 24216,
+    "breed_name": "doberman-pinscher",
+    "breed_name_display": "Doberman Pinscher",
+    "group": null,
+    "rank": 15,
+    "url": "https://www.akc.org/dog-breeds/doberman-pinscher/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Doberman-Pinscher-standing-outdoors-150x150.jpg",
+        "alt": "Doberman Pinscher standing stacked in the grass."
+      }
+    }
+  },
+  "dogo-argentino": {
+    "id": 24238,
+    "breed_name": "dogo-argentino",
+    "breed_name_display": "Dogo Argentino",
+    "group": null,
+    "rank": 101,
+    "url": "https://www.akc.org/dog-breeds/dogo-argentino/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Dogo-Argentino-150x150.jpg",
+        "alt": "Dogo Argentino standing in profile facing left."
+      }
+    }
+  },
+  "dogue-de-bordeaux": {
+    "id": 24241,
+    "breed_name": "dogue-de-bordeaux",
+    "breed_name_display": "Dogue de Bordeaux",
+    "group": null,
+    "rank": 95,
+    "url": "https://www.akc.org/dog-breeds/dogue-de-bordeaux/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Dogue-de-Bordeaux-On-White-03-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "drentsche-patrijshond": {
+    "id": 24255,
+    "breed_name": "drentsche-patrijshond",
+    "breed_name_display": "Drentsche Patrijshond",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/drentsche-patrijshond/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Drentsche-Patrijshond-standing-in-a-field-150x150.jpg",
+        "alt": "Drentsche Patrijshond standing in a field."
+      }
+    }
+  },
+  "drever": {
+    "id": 24257,
+    "breed_name": "drever",
+    "breed_name_display": "Drever",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/drever/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Drever-face-150x150.jpg",
+        "alt": "Drever face indoors."
+      }
+    }
+  },
+  "dutch-shepherd": {
+    "id": 24259,
+    "breed_name": "dutch-shepherd",
+    "breed_name_display": "Dutch Shepherd",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/dutch-shepherd/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Dutch-Shepherd-in-a-field-150x150.jpg",
+        "alt": "Dutch Shepherd in a field."
+      }
+    }
+  },
+  "english-cocker-spaniel": {
+    "id": 24262,
+    "breed_name": "english-cocker-spaniel",
+    "breed_name_display": "English Cocker Spaniel",
+    "group": null,
+    "rank": 35,
+    "url": "https://www.akc.org/dog-breeds/english-cocker-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/English-Cocker-Spaniel-Slide03-150x150.jpg",
+        "alt": "English Cocker Spaniel standing sideways in grass facing left"
+      }
+    }
+  },
+  "english-foxhound": {
+    "id": 24277,
+    "breed_name": "english-foxhound",
+    "breed_name_display": "English Foxhound",
+    "group": null,
+    "rank": 187,
+    "url": "https://www.akc.org/dog-breeds/english-foxhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/English-Foxhound-standing-in-a-field-150x150.jpg",
+        "alt": "English Foxhound standing in a field with a pack."
+      }
+    }
+  },
+  "english-setter": {
+    "id": 24291,
+    "breed_name": "english-setter",
+    "breed_name_display": "English Setter",
+    "group": null,
+    "rank": 89,
+    "url": "https://www.akc.org/dog-breeds/english-setter/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/English-Setter-standing-in-a-field-150x150.jpg",
+        "alt": "English Setter standing in a field."
+      }
+    }
+  },
+  "english-springer-spaniel": {
+    "id": 24306,
+    "breed_name": "english-springer-spaniel",
+    "breed_name_display": "English Springer Spaniel",
+    "group": null,
+    "rank": 27,
+    "url": "https://www.akc.org/dog-breeds/english-springer-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/English-Springer-Spaniel-On-White-011-150x150.jpg",
+        "alt": "English Springer Spaniel standing in three-quarter view"
+      }
+    }
+  },
+  "english-toy-spaniel": {
+    "id": 24321,
+    "breed_name": "english-toy-spaniel",
+    "breed_name_display": "English Toy Spaniel",
+    "group": null,
+    "rank": 134,
+    "url": "https://www.akc.org/dog-breeds/english-toy-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/English-Toy-Spaniel-On-White-01-150x150.jpg",
+        "alt": "English Toy Spaniel standing in three-quarter view facing forward"
+      }
+    }
+  },
+  "entlebucher-mountain-dog": {
+    "id": 24336,
+    "breed_name": "entlebucher-mountain-dog",
+    "breed_name_display": "Entlebucher Mountain Dog",
+    "group": null,
+    "rank": 178,
+    "url": "https://www.akc.org/dog-breeds/entlebucher-mountain-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Entlebucher-Mountain-Dog-outdoors-standing-in-a-field-150x150.jpg",
+        "alt": "Entlebucher Mountain Dog standing in a field."
+      }
+    }
+  },
+  "estrela-mountain-dog": {
+    "id": 24351,
+    "breed_name": "estrela-mountain-dog",
+    "breed_name_display": "Estrela Mountain Dog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/estrela-mountain-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Beau-150x150.jpg",
+        "alt": "Estrela Mountain Dog standing outdoors."
+      }
+    }
+  },
+  "eurasier": {
+    "id": 24353,
+    "breed_name": "eurasier",
+    "breed_name_display": "Eurasier",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/eurasier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Eurasier.1-150x150.jpg",
+        "alt": "Eurasier standing outdoors on a boulder."
+      }
+    }
+  },
+  "field-spaniel": {
+    "id": 24355,
+    "breed_name": "field-spaniel",
+    "breed_name_display": "Field Spaniel",
+    "group": null,
+    "rank": 148,
+    "url": "https://www.akc.org/dog-breeds/field-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Field-Spaniels-of-different-colors-sitting-together-outdoors-150x150.jpg",
+        "alt": "Field Spaniels of different colors sitting together outdoors."
+      }
+    }
+  },
+  "finnish-lapphund": {
+    "id": 24370,
+    "breed_name": "finnish-lapphund",
+    "breed_name_display": "Finnish Lapphund",
+    "group": null,
+    "rank": 127,
+    "url": "https://www.akc.org/dog-breeds/finnish-lapphund/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Finnish-Lapphund-lying-on-a-snow-covered-road-150x150.jpg",
+        "alt": "Finnish Lapphund laying in the snow."
+      }
+    }
+  },
+  "finnish-spitz": {
+    "id": 24380,
+    "breed_name": "finnish-spitz",
+    "breed_name_display": "Finnish Spitz",
+    "group": null,
+    "rank": 194,
+    "url": "https://www.akc.org/dog-breeds/finnish-spitz/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Finnish-Spitz-On-White-01-150x150.jpg",
+        "alt": "Finnish Spitz standing in three-quarter view"
+      }
+    }
+  },
+  "flat-coated-retriever": {
+    "id": 24395,
+    "breed_name": "flat-coated-retriever",
+    "breed_name_display": "Flat-Coated Retriever",
+    "group": null,
+    "rank": 98,
+    "url": "https://www.akc.org/dog-breeds/flat-coated-retriever/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Flat-Coated-Retrievers-sitting-outdoors-150x150.jpg",
+        "alt": "Flat Coated Retrievers sitting outdoors."
+      }
+    }
+  },
+  "french-bulldog": {
+    "id": 24410,
+    "breed_name": "french-bulldog",
+    "breed_name_display": "French Bulldog",
+    "group": null,
+    "rank": 1,
+    "url": "https://www.akc.org/dog-breeds/french-bulldog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/French-Bulldog-standing-outdoors-150x150.jpg",
+        "alt": "French Bulldog standing outdoors."
+      }
+    }
+  },
+  "french-spaniel": {
+    "id": 24431,
+    "breed_name": "french-spaniel",
+    "breed_name_display": "French Spaniel",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/french-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/French-Spaniel-Gallery-01-150x150.jpg",
+        "alt": "French Spaniel"
+      }
+    }
+  },
+  "german-longhaired-pointer": {
+    "id": 24433,
+    "breed_name": "german-longhaired-pointer",
+    "breed_name_display": "German Longhaired Pointer",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/german-longhaired-pointer/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/German-Longhaired-Pointer-on-White-01-150x150.jpg",
+        "alt": "German Longhaired Pointer sitting in a field with a dead bird in its mouth"
+      }
+    }
+  },
+  "german-pinscher": {
+    "id": 24436,
+    "breed_name": "german-pinscher",
+    "breed_name_display": "German Pinscher",
+    "group": null,
+    "rank": 139,
+    "url": "https://www.akc.org/dog-breeds/german-pinscher/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/German-Pinscher-standing-near-a-lake-150x150.jpg",
+        "alt": "German Pinscher standing near a lake."
+      }
+    }
+  },
+  "german-shepherd-dog": {
+    "id": 24451,
+    "breed_name": "german-shepherd-dog",
+    "breed_name_display": "German Shepherd Dog",
+    "group": null,
+    "rank": 4,
+    "url": "https://www.akc.org/dog-breeds/german-shepherd-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/German-Shepherd-on-White-00-150x150.jpg",
+        "alt": "German Shepherd Dog lying in three-quarter view with front paws crossed."
+      }
+    }
+  },
+  "german-shorthaired-pointer": {
+    "id": 24471,
+    "breed_name": "german-shorthaired-pointer",
+    "breed_name_display": "German Shorthaired Pointer",
+    "group": null,
+    "rank": 9,
+    "url": "https://www.akc.org/dog-breeds/german-shorthaired-pointer/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/German-Shorthaired-Pointer-On-White-07-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "german-spitz": {
+    "id": 24487,
+    "breed_name": "german-spitz",
+    "breed_name_display": "German Spitz",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/german-spitz/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/German-Spitz-standing-in-profile-outdoors-150x150.jpg",
+        "alt": "Large German Spitz standing in profile outdoors."
+      }
+    }
+  },
+  "german-wirehaired-pointer": {
+    "id": 24489,
+    "breed_name": "german-wirehaired-pointer",
+    "breed_name_display": "German Wirehaired Pointer",
+    "group": null,
+    "rank": 58,
+    "url": "https://www.akc.org/dog-breeds/german-wirehaired-pointer/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/German-Wirehaired-Pointer-standing-in-a-green-grassy-field-150x150.jpg",
+        "alt": "German Wirehaired Pointer standing in a green grassy field."
+      }
+    }
+  },
+  "giant-schnauzer": {
+    "id": 24504,
+    "breed_name": "giant-schnauzer",
+    "breed_name_display": "Giant Schnauzer",
+    "group": null,
+    "rank": 52,
+    "url": "https://www.akc.org/dog-breeds/giant-schnauzer/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Giant-Schanuzer-standing-in-a-field-150x150.jpg",
+        "alt": "Giant Schanuzer standing in a field of flowers."
+      }
+    }
+  },
+  "glen-of-imaal-terrier": {
+    "id": 24519,
+    "breed_name": "glen-of-imaal-terrier",
+    "breed_name_display": "Glen of Imaal Terrier",
+    "group": null,
+    "rank": 165,
+    "url": "https://www.akc.org/dog-breeds/glen-of-imaal-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Glen-of-Imaal-Terrier-On-White-01-150x150.jpg",
+        "alt": "Glen of Imaal Terrier standing in three-quarter view"
+      }
+    }
+  },
+  "golden-retriever": {
+    "id": 24534,
+    "breed_name": "golden-retriever",
+    "breed_name_display": "Golden Retriever",
+    "group": null,
+    "rank": 3,
+    "url": "https://www.akc.org/dog-breeds/golden-retriever/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Golden-Retriever-wading-into-a-lake-150x150.jpg",
+        "alt": "Golden Retriever wading into a lake."
+      }
+    }
+  },
+  "gordon-setter": {
+    "id": 24555,
+    "breed_name": "gordon-setter",
+    "breed_name_display": "Gordon Setter",
+    "group": null,
+    "rank": 104,
+    "url": "https://www.akc.org/dog-breeds/gordon-setter/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Gordon-Setter.3-150x150.jpg",
+        "alt": "Gordon Setter standing in the forest in the Fall."
+      }
+    }
+  },
+  "grand-basset-griffon-vendeen": {
+    "id": 24570,
+    "breed_name": "grand-basset-griffon-vendeen",
+    "breed_name_display": "Grand Basset Griffon Vendéen",
+    "group": null,
+    "rank": 200,
+    "url": "https://www.akc.org/dog-breeds/grand-basset-griffon-vendeen/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/GBGV.2-150x150.jpg",
+        "alt": "Grand Basset Griffon Vendéen sitting in three-quarter view."
+      }
+    }
+  },
+  "great-dane": {
+    "id": 24572,
+    "breed_name": "great-dane",
+    "breed_name_display": "Great Dane",
+    "group": null,
+    "rank": 22,
+    "url": "https://www.akc.org/dog-breeds/great-dane/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Great-Dane-standing-in-profile-outdoors1-150x150.jpg",
+        "alt": "Great Dane standing in profile outdoors."
+      }
+    }
+  },
+  "great-pyrenees": {
+    "id": 24593,
+    "breed_name": "great-pyrenees",
+    "breed_name_display": "Great Pyrenees",
+    "group": null,
+    "rank": 66,
+    "url": "https://www.akc.org/dog-breeds/great-pyrenees/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Great-Pyrenees-on-White-04-150x150.jpg",
+        "alt": "Two Great Pyrenees dogs lying in grass, one in front of the other"
+      }
+    }
+  },
+  "greater-swiss-mountain-dog": {
+    "id": 24603,
+    "breed_name": "greater-swiss-mountain-dog",
+    "breed_name_display": "Greater Swiss Mountain Dog",
+    "group": null,
+    "rank": 71,
+    "url": "https://www.akc.org/dog-breeds/greater-swiss-mountain-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Greater-Swiss-Mountain-Dog-laying-down-in-the-grass-150x150.jpg",
+        "alt": "Greater Swiss Mountain Dog laying down in the grass."
+      }
+    }
+  },
+  "greyhound": {
+    "id": 24618,
+    "breed_name": "greyhound",
+    "breed_name_display": "Greyhound",
+    "group": null,
+    "rank": 151,
+    "url": "https://www.akc.org/dog-breeds/greyhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Greyhound-running-150x150.jpg",
+        "alt": "Greyhound running in a field."
+      }
+    }
+  },
+  "hamiltonstovare": {
+    "id": 24633,
+    "breed_name": "hamiltonstovare",
+    "breed_name_display": "Hamiltonstovare",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/hamiltonstovare/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Hamiltonstovare-on-White-011-150x150.jpg",
+        "alt": "Hamiltonstovare standing facing right, head turned left"
+      }
+    }
+  },
+  "hanoverian-scenthound": {
+    "id": 24635,
+    "breed_name": "hanoverian-scenthound",
+    "breed_name_display": "Hanoverian Scenthound",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/hanoverian-scenthound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Hanoverian-Scenthound.1-150x150.jpg",
+        "alt": "Hanoverian Scenthound standing facing left outdoors."
+      }
+    }
+  },
+  "harrier": {
+    "id": 24638,
+    "breed_name": "harrier",
+    "breed_name_display": "Harrier",
+    "group": null,
+    "rank": 199,
+    "url": "https://www.akc.org/dog-breeds/harrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Harrier3-150x150.jpg",
+        "alt": "Harrier standing sideways facing left."
+      }
+    }
+  },
+  "havanese": {
+    "id": 24653,
+    "breed_name": "havanese",
+    "breed_name_display": "Havanese",
+    "group": null,
+    "rank": 25,
+    "url": "https://www.akc.org/dog-breeds/havanese/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Havanese-standing-outdoors-150x150.jpg",
+        "alt": "Havanese standing outdoors."
+      }
+    }
+  },
+  "hokkaido": {
+    "id": 24667,
+    "breed_name": "hokkaido",
+    "breed_name_display": "Hokkaido",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/hokkaido/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Hokkaido.1-150x150.jpg",
+        "alt": "Hokkaido standing outdoors facing left."
+      }
+    }
+  },
+  "hovawart": {
+    "id": 24669,
+    "breed_name": "hovawart",
+    "breed_name_display": "Hovawart",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/hovawart/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Hovawart.10-150x150.jpg",
+        "alt": "Hovawart standing in the forest in the fall."
+      }
+    }
+  },
+  "ibizan-hound": {
+    "id": 24672,
+    "breed_name": "ibizan-hound",
+    "breed_name_display": "Ibizan Hound",
+    "group": null,
+    "rank": 174,
+    "url": "https://www.akc.org/dog-breeds/ibizan-hound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Ibizan-Hound-sitting-in-profile-in-the-desert-150x150.jpg",
+        "alt": "Ibizan Hound sitting in profile in the desert."
+      }
+    }
+  },
+  "icelandic-sheepdog": {
+    "id": 24687,
+    "breed_name": "icelandic-sheepdog",
+    "breed_name_display": "Icelandic Sheepdog",
+    "group": null,
+    "rank": 138,
+    "url": "https://www.akc.org/dog-breeds/icelandic-sheepdog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Icelandic-Sitting-150x150.jpg",
+        "alt": "Icelandic Sheepdog sitting facing right, head turned left."
+      }
+    }
+  },
+  "irish-red-and-white-setter": {
+    "id": 24701,
+    "breed_name": "irish-red-and-white-setter",
+    "breed_name_display": "Irish Red and White Setter",
+    "group": null,
+    "rank": 162,
+    "url": "https://www.akc.org/dog-breeds/irish-red-and-white-setter/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Irish-Red-and-White-Setter-stalking-in-a-field-150x150.jpg",
+        "alt": "Irish Red and White Setter stalking in a field."
+      }
+    }
+  },
+  "irish-setter": {
+    "id": 24715,
+    "breed_name": "irish-setter",
+    "breed_name_display": "Irish Setter",
+    "group": null,
+    "rank": 73,
+    "url": "https://www.akc.org/dog-breeds/irish-setter/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Irish-Setter-on-point-in-a-field-150x150.jpg",
+        "alt": "Irish Setter on point in a field."
+      }
+    }
+  },
+  "irish-terrier": {
+    "id": 24729,
+    "breed_name": "irish-terrier",
+    "breed_name_display": "Irish Terrier",
+    "group": null,
+    "rank": 149,
+    "url": "https://www.akc.org/dog-breeds/irish-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Irish-Terriers-sitting-together-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "irish-water-spaniel": {
+    "id": 24744,
+    "breed_name": "irish-water-spaniel",
+    "breed_name_display": "Irish Water Spaniel",
+    "group": null,
+    "rank": 169,
+    "url": "https://www.akc.org/dog-breeds/irish-water-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Irish-Water-Spaniel-On-White-01-150x150.jpg",
+        "alt": "Irish Water Spaniel standing in three-quarter view"
+      }
+    }
+  },
+  "irish-wolfhound": {
+    "id": 24759,
+    "breed_name": "irish-wolfhound",
+    "breed_name_display": "Irish Wolfhound",
+    "group": null,
+    "rank": 75,
+    "url": "https://www.akc.org/dog-breeds/irish-wolfhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Irish-Wolfhound-standing-in-a-field-150x150.jpg",
+        "alt": "Irish Wolfhound standing in a field."
+      }
+    }
+  },
+  "italian-greyhound": {
+    "id": 24774,
+    "breed_name": "italian-greyhound",
+    "breed_name_display": "Italian Greyhound",
+    "group": null,
+    "rank": 53,
+    "url": "https://www.akc.org/dog-breeds/italian-greyhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Two-Italian-Greyhounds-150x150.jpg",
+        "alt": "Two Italian Greyhounds, one standing and one laying down."
+      }
+    }
+  },
+  "jagdterrier": {
+    "id": 24789,
+    "breed_name": "jagdterrier",
+    "breed_name_display": "Jagdterrier",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/jagdterrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Jagdterrier.4-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "japanese-akitainu": {
+    "id": 116964,
+    "breed_name": "japanese-akitainu",
+    "breed_name_display": "Japanese Akitainu",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/japanese-akitainu/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2020/11/Japanese-Akitainu-standing-in-the-forest-150x150.jpg",
+        "alt": "Japanese Akitainu standing in the forest."
+      }
+    }
+  },
+  "japanese-chin": {
+    "id": 24790,
+    "breed_name": "japanese-chin",
+    "breed_name_display": "Japanese Chin",
+    "group": null,
+    "rank": 103,
+    "url": "https://www.akc.org/dog-breeds/japanese-chin/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Japanese-Chin-standing-outdoors-150x150.jpg",
+        "alt": "Japanese Chin standing in the grass outdoors."
+      }
+    }
+  },
+  "japanese-spitz": {
+    "id": 81150,
+    "breed_name": "japanese-spitz",
+    "breed_name_display": "Japanese Spitz",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/japanese-spitz/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2019/06/Japanese-Spitz.4-150x150.jpg",
+        "alt": "Japanese Spitz standing in three-quarter view."
+      }
+    }
+  },
+  "japanese-terrier": {
+    "id": 119969,
+    "breed_name": "japanese-terrier",
+    "breed_name_display": "Japanese Terrier",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/japanese-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2020/12/Japanese-Terrier-standing-outdoors-200x200.jpg",
+        "alt": "Japanese Terrier standing in profile outdoors."
+      }
+    }
+  },
+  "kai-ken": {
+    "id": 24806,
+    "breed_name": "kai-ken",
+    "breed_name_display": "Kai Ken",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/kai-ken/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Kai-Ken-standing-in-profile-outdoors-150x150.jpg",
+        "alt": "Kai Ken standing in profile outdoors."
+      }
+    }
+  },
+  "karelian-bear-dog": {
+    "id": 24808,
+    "breed_name": "karelian-bear-dog",
+    "breed_name_display": "Karelian Bear Dog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/karelian-bear-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Karelian-Bear-Dog-150x150.jpg",
+        "alt": "Karelian Bear Dog standing in the yard."
+      }
+    }
+  },
+  "keeshond": {
+    "id": 24810,
+    "breed_name": "keeshond",
+    "breed_name_display": "Keeshond",
+    "group": null,
+    "rank": 85,
+    "url": "https://www.akc.org/dog-breeds/keeshond/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Keeshond-exploring-in-the-backyard-150x150.jpg",
+        "alt": "Keeshond exploring in the backyard."
+      }
+    }
+  },
+  "kerry-blue-terrier": {
+    "id": 24825,
+    "breed_name": "kerry-blue-terrier",
+    "breed_name_display": "Kerry Blue Terrier",
+    "group": null,
+    "rank": 155,
+    "url": "https://www.akc.org/dog-breeds/kerry-blue-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Kerry-Blue-Terrier-standing-stacked-outdoors-150x150.jpg",
+        "alt": "Kerry Blue Terrier standing stacked outdoors."
+      }
+    }
+  },
+  "kishu-ken": {
+    "id": 24839,
+    "breed_name": "kishu-ken",
+    "breed_name_display": "Kishu Ken",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/kishu-ken/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Kishu-Ken-standing-in-the-brush-at-sunset-150x150.jpg",
+        "alt": "Kishu Ken standing in the brush at sunset."
+      }
+    }
+  },
+  "komondor": {
+    "id": 24841,
+    "breed_name": "komondor",
+    "breed_name_display": "Komondor",
+    "group": null,
+    "rank": 185,
+    "url": "https://www.akc.org/dog-breeds/komondor/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Komondor-standing-in-the-park-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "korean-jindo-dog": {
+    "id": 24804,
+    "breed_name": "korean-jindo-dog",
+    "breed_name_display": "Korean Jindo Dog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/korean-jindo-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Jindo-standing-in-the-yard-150x150.jpg",
+        "alt": "Jindo standing in the yard."
+      }
+    }
+  },
+  "kromfohrlander": {
+    "id": 24856,
+    "breed_name": "kromfohrlander",
+    "breed_name_display": "Kromfohrlander",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/kromfohrlander/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Kromfohrlander.6-150x150.jpg",
+        "alt": "Kromfohrlander standing in three-quarter view."
+      }
+    }
+  },
+  "kuvasz": {
+    "id": 24858,
+    "breed_name": "kuvasz",
+    "breed_name_display": "Kuvasz",
+    "group": null,
+    "rank": 179,
+    "url": "https://www.akc.org/dog-breeds/kuvasz/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Kuvasz-standing-outdoors-150x150.jpg",
+        "alt": "Kuvasz standing outdoors in the grass."
+      }
+    }
+  },
+  "labrador-retriever": {
+    "id": 24873,
+    "breed_name": "labrador-retriever",
+    "breed_name_display": "Labrador Retriever",
+    "group": null,
+    "rank": 2,
+    "url": "https://www.akc.org/dog-breeds/labrador-retriever/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Labrador-Retrievers-three-colors-150x150.jpg",
+        "alt": "Three Labrador Retrievers sitting outdoors, each a different coat color."
+      }
+    }
+  },
+  "lagotto-romagnolo": {
+    "id": 24894,
+    "breed_name": "lagotto-romagnolo",
+    "breed_name_display": "Lagotto Romagnolo",
+    "group": null,
+    "rank": 77,
+    "url": "https://www.akc.org/dog-breeds/lagotto-romagnolo/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Lagotto-Romagnolo-standing-by-a-pond-150x150.jpg",
+        "alt": "Lagotto Romagnolo standing by a pond."
+      }
+    }
+  },
+  "lakeland-terrier": {
+    "id": 24908,
+    "breed_name": "lakeland-terrier",
+    "breed_name_display": "Lakeland Terrier",
+    "group": null,
+    "rank": 157,
+    "url": "https://www.akc.org/dog-breeds/lakeland-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Lakeland-Terrier-standing-stacked-outdoors-150x150.jpg",
+        "alt": "Lakeland Terrier standing stacked outdoors."
+      }
+    }
+  },
+  "lancashire-heeler": {
+    "id": 24923,
+    "breed_name": "lancashire-heeler",
+    "breed_name_display": "Lancashire Heeler",
+    "group": null,
+    "rank": 190,
+    "url": "https://www.akc.org/dog-breeds/lancashire-heeler/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Lancashire-heeler.1-150x150.jpg",
+        "alt": "Lancashire Heeler standing outdoors facing left."
+      }
+    }
+  },
+  "lapponian-herder": {
+    "id": 24925,
+    "breed_name": "lapponian-herder",
+    "breed_name_display": "Lapponian Herder",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/lapponian-herder/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Lapponian-Herders-standing-together-in-the-shallows-150x150.jpg",
+        "alt": "Lapponian Herders standing together in the shallows."
+      }
+    }
+  },
+  "large-munsterlander": {
+    "id": 175442,
+    "breed_name": "large-munsterlander",
+    "breed_name_display": "Large Munsterlander",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/large-munsterlander/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2023/08/Large-Munsterlander-standing-outdoors-150x150.jpg",
+        "alt": "Large Munsterlander standing outdoors."
+      }
+    }
+  },
+  "leonberger": {
+    "id": 24927,
+    "breed_name": "leonberger",
+    "breed_name_display": "Leonberger",
+    "group": null,
+    "rank": 96,
+    "url": "https://www.akc.org/dog-breeds/leonberger/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Leonberger-standing-in-a-field-150x150.jpg",
+        "alt": "Leonberger standing in a field."
+      }
+    }
+  },
+  "lhasa-apso": {
+    "id": 24942,
+    "breed_name": "lhasa-apso",
+    "breed_name_display": "Lhasa Apso",
+    "group": null,
+    "rank": 83,
+    "url": "https://www.akc.org/dog-breeds/lhasa-apso/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Lhasa-Apso-On-White-01-150x150.jpg",
+        "alt": "Lhasa Apso standing in three-quarter view."
+      }
+    }
+  },
+  "lowchen": {
+    "id": 24956,
+    "breed_name": "lowchen",
+    "breed_name_display": "Löwchen",
+    "group": null,
+    "rank": 159,
+    "url": "https://www.akc.org/dog-breeds/lowchen/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Lowchen-at-the-AKC-National-Championship-presented-by-Royal-Canin-150x150.jpg",
+        "alt": "Lowchen at the AKC National Championship presented by Royal Canin."
+      }
+    }
+  },
+  "maltese": {
+    "id": 24958,
+    "breed_name": "maltese",
+    "breed_name_display": "Maltese",
+    "group": null,
+    "rank": 37,
+    "url": "https://www.akc.org/dog-breeds/maltese/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Maltese-laying-down-in-a-chair-150x150.jpg",
+        "alt": "Maltese laying down in a chair."
+      }
+    }
+  },
+  "manchester-terrier-standard": {
+    "id": 24973,
+    "breed_name": "manchester-terrier-standard",
+    "breed_name_display": "Manchester Terrier (Standard)",
+    "group": null,
+    "rank": 131,
+    "url": "https://www.akc.org/dog-breeds/manchester-terrier-standard/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Manchester-Terrier-Standard-on-White-08-150x150.jpg",
+        "alt": "Standard Manchester Terrier standing in profile outdoors."
+      }
+    }
+  },
+  "manchester-terrier-toy": {
+    "id": 49157,
+    "breed_name": "manchester-terrier-toy",
+    "breed_name_display": "Manchester Terrier (Toy)",
+    "group": null,
+    "rank": 131,
+    "url": "https://www.akc.org/dog-breeds/manchester-terrier-toy/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2018/04/Manchester-Terrier-Slide-01-150x150.jpg",
+        "alt": "Toy Manchester Terrier standing in three-quarter view."
+      }
+    }
+  },
+  "mastiff": {
+    "id": 24987,
+    "breed_name": "mastiff",
+    "breed_name_display": "Mastiff",
+    "group": null,
+    "rank": 40,
+    "url": "https://www.akc.org/dog-breeds/mastiff/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Mastiff-On-White-03-150x150.jpg",
+        "alt": "Mastiff laying down on a white background."
+      }
+    }
+  },
+  "miniature-american-shepherd": {
+    "id": 25002,
+    "breed_name": "miniature-american-shepherd",
+    "breed_name_display": "Miniature American Shepherd",
+    "group": null,
+    "rank": 28,
+    "url": "https://www.akc.org/dog-breeds/miniature-american-shepherd/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Miniature-American-Shepherd-On-White-01-150x150.jpg",
+        "alt": "Miniature American Shepherd standing in three-quarter view."
+      }
+    }
+  },
+  "miniature-bull-terrier": {
+    "id": 25017,
+    "breed_name": "miniature-bull-terrier",
+    "breed_name_display": "Miniature Bull Terrier",
+    "group": null,
+    "rank": 105,
+    "url": "https://www.akc.org/dog-breeds/miniature-bull-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Miniature-Bull-Terrier-standing-outdoors-150x150.jpg",
+        "alt": "Miniature Bull Terrier standing outdoors."
+      }
+    }
+  },
+  "miniature-pinscher": {
+    "id": 25029,
+    "breed_name": "miniature-pinscher",
+    "breed_name_display": "Miniature Pinscher",
+    "group": null,
+    "rank": 67,
+    "url": "https://www.akc.org/dog-breeds/miniature-pinscher/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Miniature-Pinscher-standing-in-three-quarter-view-150x150.jpg",
+        "alt": "Miniature Pinscher standing in three-quarter view."
+      }
+    }
+  },
+  "miniature-schnauzer": {
+    "id": 25043,
+    "breed_name": "miniature-schnauzer",
+    "breed_name_display": "Miniature Schnauzer",
+    "group": null,
+    "rank": 17,
+    "url": "https://www.akc.org/dog-breeds/miniature-schnauzer/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Miniature-Schnauzer-On-White-01-150x150.jpg",
+        "alt": "Miniature Schnauzer standing in three-quarter view facing forward."
+      }
+    }
+  },
+  "mountain-cur": {
+    "id": 25059,
+    "breed_name": "mountain-cur",
+    "breed_name_display": "Mountain Cur",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/mountain-cur/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Mountain-Cur-MP-150x150.jpg",
+        "alt": "Mountain Cur standing in the garden."
+      }
+    }
+  },
+  "mudi": {
+    "id": 25061,
+    "breed_name": "mudi",
+    "breed_name_display": "Mudi",
+    "group": null,
+    "rank": 125,
+    "url": "https://www.akc.org/dog-breeds/mudi/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Mudi-sitting-outdoors-150x150.jpg",
+        "alt": "Mudi sitting outdoors."
+      }
+    }
+  },
+  "neapolitan-mastiff": {
+    "id": 25063,
+    "breed_name": "neapolitan-mastiff",
+    "breed_name_display": "Neapolitan Mastiff",
+    "group": null,
+    "rank": 119,
+    "url": "https://www.akc.org/dog-breeds/neapolitan-mastiff/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2009/01/Neapolitan-Mastiff-on-lead-standing-in-the-grass-outdoors.20190813025752970-150x150.jpg",
+        "alt": "Neapolitan Mastiff standing in the grass outdoors."
+      }
+    }
+  },
+  "nederlandse-kooikerhondje": {
+    "id": 25078,
+    "breed_name": "nederlandse-kooikerhondje",
+    "breed_name_display": "Nederlandse Kooikerhondje",
+    "group": null,
+    "rank": 158,
+    "url": "https://www.akc.org/dog-breeds/nederlandse-kooikerhondje/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2018/01/Nederlandse-Kooikerhondje-Field-150x150.jpg",
+        "alt": "Nederlandse Kooikerhondje sitting in the grass in the sun."
+      }
+    }
+  },
+  "newfoundland": {
+    "id": 25081,
+    "breed_name": "newfoundland",
+    "breed_name_display": "Newfoundland",
+    "group": null,
+    "rank": 46,
+    "url": "https://www.akc.org/dog-breeds/newfoundland/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Newfoundland-standing-outdoors-150x150.jpg",
+        "alt": "Newfoundland standing in profile outdoors."
+      }
+    }
+  },
+  "norfolk-terrier": {
+    "id": 25096,
+    "breed_name": "norfolk-terrier",
+    "breed_name_display": "Norfolk Terrier",
+    "group": null,
+    "rank": 126,
+    "url": "https://www.akc.org/dog-breeds/norfolk-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Norfolk-Terrier-sitting-in-the-grass.1-150x150.jpg",
+        "alt": "Norfolk Terrier sitting in the grass."
+      }
+    }
+  },
+  "norrbottenspets": {
+    "id": 25111,
+    "breed_name": "norrbottenspets",
+    "breed_name_display": "Norrbottenspets",
+    "group": null,
+    "rank": 174,
+    "url": "https://www.akc.org/dog-breeds/norrbottenspets/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Norrbottenspets-On-White-01-150x150.jpg",
+        "alt": "Norrbottenspets standing facing left"
+      }
+    }
+  },
+  "norwegian-buhund": {
+    "id": 25114,
+    "breed_name": "norwegian-buhund",
+    "breed_name_display": "Norwegian Buhund",
+    "group": null,
+    "rank": 173,
+    "url": "https://www.akc.org/dog-breeds/norwegian-buhund/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Norwegian-Buhund-On-White-01-150x150.jpg",
+        "alt": "Norwegian Buhund standing in three-quarter view facing forward."
+      }
+    }
+  },
+  "norwegian-elkhound": {
+    "id": 25129,
+    "breed_name": "norwegian-elkhound",
+    "breed_name_display": "Norwegian Elkhound",
+    "group": null,
+    "rank": 128,
+    "url": "https://www.akc.org/dog-breeds/norwegian-elkhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Norwegian-Elkhound-sitting-in-the-snow-looking-back-over-its-shoulder-150x150.jpg",
+        "alt": "Norwegian Elkhound sitting in the snow looking back over its shoulder."
+      }
+    }
+  },
+  "norwegian-lundehund": {
+    "id": 25139,
+    "breed_name": "norwegian-lundehund",
+    "breed_name_display": "Norwegian Lundehund",
+    "group": null,
+    "rank": 202,
+    "url": "https://www.akc.org/dog-breeds/norwegian-lundehund/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Norwegian-Lundehund-standing-in-the-grass-150x150.jpg",
+        "alt": "Norwegian Lundehund standing in the grass."
+      }
+    }
+  },
+  "norwich-terrier": {
+    "id": 25153,
+    "breed_name": "norwich-terrier",
+    "breed_name_display": "Norwich Terrier",
+    "group": null,
+    "rank": 109,
+    "url": "https://www.akc.org/dog-breeds/norwich-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Norwich-Terrier-standing-outdoors-150x150.jpg",
+        "alt": "Norwich Terrier standing outdoors."
+      }
+    }
+  },
+  "nova-scotia-duck-tolling-retriever": {
+    "id": 25167,
+    "breed_name": "nova-scotia-duck-tolling-retriever",
+    "breed_name_display": "Nova Scotia Duck Tolling Retriever",
+    "group": null,
+    "rank": 69,
+    "url": "https://www.akc.org/dog-breeds/nova-scotia-duck-tolling-retriever/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Nova-Scotia-Duck-Tolling-Retriever-wading-in-water-150x150.jpg",
+        "alt": "Nova Scotia Duck Tolling Retriever wading in water."
+      }
+    }
+  },
+  "old-english-sheepdog": {
+    "id": 25181,
+    "breed_name": "old-english-sheepdog",
+    "breed_name_display": "Old English Sheepdog",
+    "group": null,
+    "rank": 87,
+    "url": "https://www.akc.org/dog-breeds/old-english-sheepdog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Old-English-Sheepdogs-on-white-02-150x150.jpg",
+        "alt": "Old English Sheepdog standing in three-quarter view facing forward."
+      }
+    }
+  },
+  "otterhound": {
+    "id": 25195,
+    "breed_name": "otterhound",
+    "breed_name_display": "Otterhound",
+    "group": null,
+    "rank": 189,
+    "url": "https://www.akc.org/dog-breeds/otterhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Otterhound-On-White-03-150x150.jpg",
+        "alt": "Otterhound sitting in three-quarter view facing forward"
+      }
+    }
+  },
+  "papillon": {
+    "id": 25210,
+    "breed_name": "papillon",
+    "breed_name_display": "Papillon",
+    "group": null,
+    "rank": 42,
+    "url": "https://www.akc.org/dog-breeds/papillon/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Papillon-On-White-01-150x150.jpg",
+        "alt": "Papillon standing facing left, head turned forward"
+      }
+    }
+  },
+  "parson-russell-terrier": {
+    "id": 25221,
+    "breed_name": "parson-russell-terrier",
+    "breed_name_display": "Parson Russell Terrier",
+    "group": null,
+    "rank": 121,
+    "url": "https://www.akc.org/dog-breeds/parson-russell-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Parson-Russell-Terrier-standing-in-three-quarter-view-on-a-white-background-150x150.jpg",
+        "alt": "Parson Russell Terrier standing in three-quarter view on a white background."
+      }
+    }
+  },
+  "pekingese": {
+    "id": 25235,
+    "breed_name": "pekingese",
+    "breed_name_display": "Pekingese",
+    "group": null,
+    "rank": 90,
+    "url": "https://www.akc.org/dog-breeds/pekingese/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Pekingese_standing_portrait-200x200.jpg",
+        "alt": "Pekingese standing for a studio portrait indoors."
+      }
+    }
+  },
+  "pembroke-welsh-corgi": {
+    "id": 25249,
+    "breed_name": "pembroke-welsh-corgi",
+    "breed_name_display": "Pembroke Welsh Corgi",
+    "group": null,
+    "rank": 16,
+    "url": "https://www.akc.org/dog-breeds/pembroke-welsh-corgi/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Pembroke-Welsh-Corgi-standing-outdoors-in-the-fall-150x150.jpg",
+        "alt": "Pembroke Welsh Corgi standing outdoors in the fall."
+      }
+    }
+  },
+  "peruvian-inca-orchid": {
+    "id": 25267,
+    "breed_name": "peruvian-inca-orchid",
+    "breed_name_display": "Peruvian Inca Orchid",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/peruvian-inca-orchid/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Peruvian-Inca-Orchid-04-150x150.jpg",
+        "alt": "Peruvian Inca Orchid standing facing left."
+      }
+    }
+  },
+  "petit-basset-griffon-vendeen": {
+    "id": 25270,
+    "breed_name": "petit-basset-griffon-vendeen",
+    "breed_name_display": "Petit Basset Griffon Vendéen",
+    "group": null,
+    "rank": 161,
+    "url": "https://www.akc.org/dog-breeds/petit-basset-griffon-vendeen/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Petit-Basset-Griffon-Vendeen-On-White-03-150x150.jpg",
+        "alt": "Petit Basset Griffon Vendéen lying in three-quarter view facing forward"
+      }
+    }
+  },
+  "pharaoh-hound": {
+    "id": 25272,
+    "breed_name": "pharaoh-hound",
+    "breed_name_display": "Pharaoh Hound",
+    "group": null,
+    "rank": 180,
+    "url": "https://www.akc.org/dog-breeds/pharaoh-hound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Pharaoh-Hound-laying-down-in-profile-150x150.jpg",
+        "alt": "Pharaoh Hound laying down in profile."
+      }
+    }
+  },
+  "plott-hound": {
+    "id": 25282,
+    "breed_name": "plott-hound",
+    "breed_name_display": "Plott Hound",
+    "group": null,
+    "rank": 171,
+    "url": "https://www.akc.org/dog-breeds/plott-hound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/IMG_8947-150x150.jpg",
+        "alt": "Best of Breed and VETC- -D-1: GCHB CH CGCH C-Cruz Mob Boss Vito's Gotcha, Plott; Hound Group judging at the 2016 AKC National Championship presented by Royal Canin in Orlando, FL."
+      }
+    }
+  },
+  "pointer": {
+    "id": 25297,
+    "breed_name": "pointer",
+    "breed_name_display": "Pointer",
+    "group": null,
+    "rank": 111,
+    "url": "https://www.akc.org/dog-breeds/pointer/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Pointer.4-150x150.jpg",
+        "alt": "Pointer carrying a pheasant through a green field."
+      }
+    }
+  },
+  "polish-lowland-sheepdog": {
+    "id": 25310,
+    "breed_name": "polish-lowland-sheepdog",
+    "breed_name_display": "Polish Lowland Sheepdog",
+    "group": null,
+    "rank": 192,
+    "url": "https://www.akc.org/dog-breeds/polish-lowland-sheepdog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Polish-Lowland-Sheepdog-On-White-02-150x150.jpg",
+        "alt": "Polish Lowland Sheepdog sitting in three-quarter view facing forward"
+      }
+    }
+  },
+  "pomeranian": {
+    "id": 25321,
+    "breed_name": "pomeranian",
+    "breed_name_display": "Pomeranian",
+    "group": null,
+    "rank": 19,
+    "url": "https://www.akc.org/dog-breeds/pomeranian/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Pomeranian-On-White-01-150x150.jpg",
+        "alt": "Pomeranian standing in three-quarter view facing forward"
+      }
+    }
+  },
+  "pont-audemer-spaniel": {
+    "id": 173120,
+    "breed_name": "pont-audemer-spaniel",
+    "breed_name_display": "Pont-Audemer Spaniel",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/pont-audemer-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2023/07/Pont-Audemer-Spaniel-on-point-outdoors-while-hunting.1-150x150.jpg",
+        "alt": "Pont-Audemer Spaniel on point outdoors while hunting."
+      }
+    }
+  },
+  "poodle-miniature": {
+    "id": 80441,
+    "breed_name": "poodle-miniature",
+    "breed_name_display": "Poodle (Miniature)",
+    "group": null,
+    "rank": 7,
+    "url": "https://www.akc.org/dog-breeds/poodle-miniature/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Poodle-On-White-01-150x150.jpg",
+        "alt": "Miniature Poodle with a black coat standing sideways facing left, head turned forward"
+      }
+    }
+  },
+  "poodle-standard": {
+    "id": 25336,
+    "breed_name": "poodle-standard",
+    "breed_name_display": "Poodle (Standard)",
+    "group": null,
+    "rank": 7,
+    "url": "https://www.akc.org/dog-breeds/poodle-standard/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Standard-Poodle-standing-outdoors-at-the-beach-150x150.jpg",
+        "alt": "Standard Poodle standing outdoors at the beach."
+      }
+    }
+  },
+  "poodle-toy": {
+    "id": 49148,
+    "breed_name": "poodle-toy",
+    "breed_name_display": "Poodle (Toy)",
+    "group": null,
+    "rank": 7,
+    "url": "https://www.akc.org/dog-breeds/poodle-toy/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2018/04/Toy-Poodle-on-White-02-150x150.jpg",
+        "alt": "White Toy Poodle sitting facing forward."
+      }
+    }
+  },
+  "porcelaine": {
+    "id": 25357,
+    "breed_name": "porcelaine",
+    "breed_name_display": "Porcelaine",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/porcelaine/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Porcelaine.4-150x150.jpg",
+        "alt": "Porcelaine standing in the grass."
+      }
+    }
+  },
+  "portuguese-podengo": {
+    "id": 25359,
+    "breed_name": "portuguese-podengo",
+    "breed_name_display": "Portuguese Podengo",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/portuguese-podengo/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Portuguese-Podengo-standing-in-three-quarter-view-150x150.jpg",
+        "alt": "Portuguese Podengo standing in three-quarter view on a white background."
+      }
+    }
+  },
+  "portuguese-podengo-pequeno": {
+    "id": 25367,
+    "breed_name": "portuguese-podengo-pequeno",
+    "breed_name_display": "Portuguese Podengo Pequeno",
+    "group": null,
+    "rank": 164,
+    "url": "https://www.akc.org/dog-breeds/portuguese-podengo-pequeno/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/PPP-on-white-150x150.jpg",
+        "alt": "Portuguese Podengo Pequeno standing in three-quarter view facing forward."
+      }
+    }
+  },
+  "portuguese-pointer": {
+    "id": 25375,
+    "breed_name": "portuguese-pointer",
+    "breed_name_display": "Portuguese Pointer",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/portuguese-pointer/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Portuguese-Pointer-on-White-01-1-150x150.jpg",
+        "alt": "Two Portuguese Pointers standing outdoors in sunlight in tall grasses and flowers"
+      }
+    }
+  },
+  "portuguese-sheepdog": {
+    "id": 25377,
+    "breed_name": "portuguese-sheepdog",
+    "breed_name_display": "Portuguese Sheepdog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/portuguese-sheepdog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Black-Portuguese-Sheepdog-standing-outdoors-in-the-grass-150x150.jpg",
+        "alt": "Portuguese Sheepdog standing outdoors."
+      }
+    }
+  },
+  "portuguese-water-dog": {
+    "id": 25378,
+    "breed_name": "portuguese-water-dog",
+    "breed_name_display": "Portuguese Water Dog",
+    "group": null,
+    "rank": 43,
+    "url": "https://www.akc.org/dog-breeds/portuguese-water-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Portuguese-Water-Dog-standing-in-profile-outdoors-150x150.jpg",
+        "alt": "Portuguese Water Dog standing in profile outdoors."
+      }
+    }
+  },
+  "presa-canario": {
+    "id": 25265,
+    "breed_name": "presa-canario",
+    "breed_name_display": "Presa Canario",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/presa-canario/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Perro-de-Presa-Canario.1-150x150.jpg",
+        "alt": "Perro de Presa Canario standing outdoors."
+      }
+    }
+  },
+  "pudelpointer": {
+    "id": 25389,
+    "breed_name": "pudelpointer",
+    "breed_name_display": "Pudelpointer",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/pudelpointer/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Pudelpointer-standing-in-a-field-150x150.jpg",
+        "alt": "Pudelpointer standing in a field."
+      }
+    }
+  },
+  "pug": {
+    "id": 25390,
+    "breed_name": "pug",
+    "breed_name_display": "Pug",
+    "group": null,
+    "rank": 38,
+    "url": "https://www.akc.org/dog-breeds/pug/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Pug-On-White-01-150x150.jpg",
+        "alt": "Pug standing in three-quarter view"
+      }
+    }
+  },
+  "puli": {
+    "id": 25405,
+    "breed_name": "puli",
+    "breed_name_display": "Puli",
+    "group": null,
+    "rank": 177,
+    "url": "https://www.akc.org/dog-breeds/puli/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Puli-sitting-in-a-field-150x150.jpg",
+        "alt": "Puli sitting in a field."
+      }
+    }
+  },
+  "pumi": {
+    "id": 25420,
+    "breed_name": "pumi",
+    "breed_name_display": "Pumi",
+    "group": null,
+    "rank": 169,
+    "url": "https://www.akc.org/dog-breeds/pumi/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Pumi-standing-outdoors-in-the-countryside-150x150.jpg",
+        "alt": "Pumi standing outdoors in the countryside."
+      }
+    }
+  },
+  "pyrenean-mastiff": {
+    "id": 25435,
+    "breed_name": "pyrenean-mastiff",
+    "breed_name_display": "Pyrenean Mastiff",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/pyrenean-mastiff/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Pyrenean-Mastiff-On-White-01-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "pyrenean-shepherd": {
+    "id": 25437,
+    "breed_name": "pyrenean-shepherd",
+    "breed_name_display": "Pyrenean Shepherd",
+    "group": null,
+    "rank": 191,
+    "url": "https://www.akc.org/dog-breeds/pyrenean-shepherd/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Pyrenean-Shepherd-standing-in-profile-in-a-field-150x150.jpg",
+        "alt": "Pyrenean Shepherd standing in profile in a field."
+      }
+    }
+  },
+  "rafeiro-do-alentejo": {
+    "id": 25452,
+    "breed_name": "rafeiro-do-alentejo",
+    "breed_name_display": "Rafeiro do Alentejo",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/rafeiro-do-alentejo/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Rafeiro-do-Alentejo-standing-outdoors-in-a-field-1-150x150.jpg",
+        "alt": "Rafeiro do Alentejo standing outdoors in a field."
+      }
+    }
+  },
+  "rat-terrier": {
+    "id": 25453,
+    "breed_name": "rat-terrier",
+    "breed_name_display": "Rat Terrier",
+    "group": null,
+    "rank": 84,
+    "url": "https://www.akc.org/dog-breeds/rat-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Rat-Terrier-On-White-01-150x150.jpg",
+        "alt": "Rat Terrier standing in three-quarter view facing forward"
+      }
+    }
+  },
+  "redbone-coonhound": {
+    "id": 25467,
+    "breed_name": "redbone-coonhound",
+    "breed_name_display": "Redbone Coonhound",
+    "group": null,
+    "rank": 146,
+    "url": "https://www.akc.org/dog-breeds/redbone-coonhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Redbone-Coonhound-150x150.jpg",
+        "alt": "Redbone Coonhound standing in a field outdoors."
+      }
+    }
+  },
+  "rhodesian-ridgeback": {
+    "id": 25476,
+    "breed_name": "rhodesian-ridgeback",
+    "breed_name_display": "Rhodesian Ridgeback",
+    "group": null,
+    "rank": 41,
+    "url": "https://www.akc.org/dog-breeds/rhodesian-ridgeback/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Rhodesian-Ridgeback-standing-in-profile-outdoors-150x150.jpg",
+        "alt": "Rhodesian Ridgeback standing in profile outdoors."
+      }
+    }
+  },
+  "romanian-carpathian-shepherd": {
+    "id": 141646,
+    "breed_name": "romanian-carpathian-shepherd",
+    "breed_name_display": "Romanian Carpathian Shepherd",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/romanian-carpathian-shepherd/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2022/01/Romanian-Carpathian-Shepherd-standing-with-a-shepherd-in-a-field-copy-150x150.jpg",
+        "alt": "Romanian Carpathian Shepherd standing with a shepherd in a field."
+      }
+    }
+  },
+  "romanian-mioritic-shepherd-dog": {
+    "id": 57357,
+    "breed_name": "romanian-mioritic-shepherd-dog",
+    "breed_name_display": "Romanian Mioritic Shepherd Dog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/romanian-mioritic-shepherd-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2018/07/Romanian-Mioritic-Shepherd-Dog-laying-in-a-field-in-a-mountainous-landscape-150x150.jpg",
+        "alt": "Romanian Mioritic Shepherd Dog laying in the grass in a mountainous landscape."
+      }
+    }
+  },
+  "rottweiler": {
+    "id": 25491,
+    "breed_name": "rottweiler",
+    "breed_name_display": "Rottweiler",
+    "group": null,
+    "rank": 8,
+    "url": "https://www.akc.org/dog-breeds/rottweiler/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Rottweiler-On-White-10-150x150.jpg",
+        "alt": "Rottweiler sitting in three-quarter view."
+      }
+    }
+  },
+  "russell-terrier": {
+    "id": 25511,
+    "breed_name": "russell-terrier",
+    "breed_name_display": "Russell Terrier",
+    "group": null,
+    "rank": 60,
+    "url": "https://www.akc.org/dog-breeds/russell-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Russell-Terrier-On-White-03-150x150.jpg",
+        "alt": "Russell Terrier sitting in three-quarter view."
+      }
+    }
+  },
+  "russian-toy": {
+    "id": 25525,
+    "breed_name": "russian-toy",
+    "breed_name_display": "Russian Toy",
+    "group": null,
+    "rank": 145,
+    "url": "https://www.akc.org/dog-breeds/russian-toy/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Russian-Toy.4-150x150.jpg",
+        "alt": "Two Russian Toys standing on a tree stump outdoors."
+      }
+    }
+  },
+  "russian-tsvetnaya-bolonka": {
+    "id": 25527,
+    "breed_name": "russian-tsvetnaya-bolonka",
+    "breed_name_display": "Russian Tsvetnaya Bolonka",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/russian-tsvetnaya-bolonka/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Russian-Tsvetnaya-Bolonka-standing-on-a-white-background-150x150.jpg",
+        "alt": "Russian Tsvetnaya Bolonka standing in three-quarter view."
+      }
+    }
+  },
+  "saluki": {
+    "id": 25544,
+    "breed_name": "saluki",
+    "breed_name_display": "Saluki",
+    "group": null,
+    "rank": 135,
+    "url": "https://www.akc.org/dog-breeds/saluki/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/AKC-121716-139-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "samoyed": {
+    "id": 25559,
+    "breed_name": "samoyed",
+    "breed_name_display": "Samoyed",
+    "group": null,
+    "rank": 55,
+    "url": "https://www.akc.org/dog-breeds/samoyed/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Samoyed-standing-in-the-forest-150x150.jpg",
+        "alt": "Samoyed standing in the forest."
+      }
+    }
+  },
+  "schapendoes": {
+    "id": 25573,
+    "breed_name": "schapendoes",
+    "breed_name_display": "Schapendoes",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/schapendoes/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Schapendoes-On-White-01-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "schipperke": {
+    "id": 25575,
+    "breed_name": "schipperke",
+    "breed_name_display": "Schipperke",
+    "group": null,
+    "rank": 110,
+    "url": "https://www.akc.org/dog-breeds/schipperke/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2022/11/Schipperke-standing-in-a-field-150x150.jpg",
+        "alt": "Schipperke standing in a field."
+      }
+    }
+  },
+  "scottish-deerhound": {
+    "id": 25590,
+    "breed_name": "scottish-deerhound",
+    "breed_name_display": "Scottish Deerhound",
+    "group": null,
+    "rank": 156,
+    "url": "https://www.akc.org/dog-breeds/scottish-deerhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Scottish-Deerhound-standing-in-the-woods-150x150.jpg",
+        "alt": "Scottish Deerhound standing in the woods."
+      }
+    }
+  },
+  "scottish-terrier": {
+    "id": 25604,
+    "breed_name": "scottish-terrier",
+    "breed_name_display": "Scottish Terrier",
+    "group": null,
+    "rank": 57,
+    "url": "https://www.akc.org/dog-breeds/scottish-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Scottish-Terrier-On-White-02-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "sealyham-terrier": {
+    "id": 25619,
+    "breed_name": "sealyham-terrier",
+    "breed_name_display": "Sealyham Terrier",
+    "group": null,
+    "rank": 163,
+    "url": "https://www.akc.org/dog-breeds/sealyham-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Sealyham-Terrier-standing-in-three-quarter-view.1-150x150.jpg",
+        "alt": "Sealyham Terrier standing in three-quarter view."
+      }
+    }
+  },
+  "segugio-italiano": {
+    "id": 59390,
+    "breed_name": "segugio-italiano",
+    "breed_name_display": "Segugio Italiano",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/segugio-italiano/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2018/08/Segugio-Italiano-slideshow-08-150x150.jpg",
+        "alt": "Segugio Italiano"
+      }
+    }
+  },
+  "shetland-sheepdog": {
+    "id": 25634,
+    "breed_name": "shetland-sheepdog",
+    "breed_name_display": "Shetland Sheepdog",
+    "group": null,
+    "rank": 29,
+    "url": "https://www.akc.org/dog-breeds/shetland-sheepdog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Shetland-Sheepdog-On-White-01-150x150.jpg",
+        "alt": "Shetland Sheepdog standing in three-quarter view facing forward"
+      }
+    }
+  },
+  "shiba-inu": {
+    "id": 25649,
+    "breed_name": "shiba-inu",
+    "breed_name_display": "Shiba Inu",
+    "group": null,
+    "rank": 44,
+    "url": "https://www.akc.org/dog-breeds/shiba-inu/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Shiba-Inu-standing-in-profile-outdoors-150x150.jpg",
+        "alt": "Shiba Inu standing in profile outdoors."
+      }
+    }
+  },
+  "shih-tzu": {
+    "id": 25664,
+    "breed_name": "shih-tzu",
+    "breed_name_display": "Shih Tzu",
+    "group": null,
+    "rank": 21,
+    "url": "https://www.akc.org/dog-breeds/shih-tzu/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Shih-Tzu-On-White-01-150x150.jpg",
+        "alt": "Shih Tzu standing in three-quarter view facing forward."
+      }
+    }
+  },
+  "shikoku-ken": {
+    "id": 25685,
+    "breed_name": "shikoku-ken",
+    "breed_name_display": "Shikoku Ken",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/shikoku-ken/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Shikoku-standing-outdoors-150x150.jpg",
+        "alt": "Shikoku standing outdoors."
+      }
+    }
+  },
+  "siberian-husky": {
+    "id": 25687,
+    "breed_name": "siberian-husky",
+    "breed_name_display": "Siberian Husky",
+    "group": null,
+    "rank": 30,
+    "url": "https://www.akc.org/dog-breeds/siberian-husky/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Siberian-Husky-standing-outdoors-in-the-winter-150x150.jpg",
+        "alt": "Siberian Husky standing outdoors in the winter."
+      }
+    }
+  },
+  "silky-terrier": {
+    "id": 25707,
+    "breed_name": "silky-terrier",
+    "breed_name_display": "Silky Terrier",
+    "group": null,
+    "rank": 116,
+    "url": "https://www.akc.org/dog-breeds/silky-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Silky-Terrier-On-White-01-150x150.jpg",
+        "alt": "Silky Terrier standing in three-quarter view facing forward."
+      }
+    }
+  },
+  "skye-terrier": {
+    "id": 25721,
+    "breed_name": "skye-terrier",
+    "breed_name_display": "Skye Terrier",
+    "group": null,
+    "rank": 181,
+    "url": "https://www.akc.org/dog-breeds/skye-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Skye-Terrier-standing-outdoors-in-profile-150x150.jpg",
+        "alt": "Skye Terrier standing outdoors in profile."
+      }
+    }
+  },
+  "sloughi": {
+    "id": 25735,
+    "breed_name": "sloughi",
+    "breed_name_display": "Sloughi",
+    "group": null,
+    "rank": 201,
+    "url": "https://www.akc.org/dog-breeds/sloughi/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Sloughi-in-the-desert-150x150.jpg",
+        "alt": "Sloughi in the desert."
+      }
+    }
+  },
+  "slovakian-wirehaired-pointer": {
+    "id": 57382,
+    "breed_name": "slovakian-wirehaired-pointer",
+    "breed_name_display": "Slovakian Wirehaired Pointer",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/slovakian-wirehaired-pointer/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2018/07/Slovakian-Wirehaired-Pointer-laying-down-outdoors-150x150.jpg",
+        "alt": "Slovakian Wirehaired Pointer laying down outdoors in the fall."
+      }
+    }
+  },
+  "slovensky-cuvac": {
+    "id": 25748,
+    "breed_name": "slovensky-cuvac",
+    "breed_name_display": "Slovensky Cuvac",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/slovensky-cuvac/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Slovensky-Cuvac-standing-outdoors-150x150.jpg",
+        "alt": "Slovensky Cuvac standing in the yard."
+      }
+    }
+  },
+  "slovensky-kopov": {
+    "id": 25750,
+    "breed_name": "slovensky-kopov",
+    "breed_name_display": "Slovensky Kopov",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/slovensky-kopov/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Slovensky-Kopov-On-White-01-150x150.jpg",
+        "alt": "Slovensky Kopov standing sideways facing left in grass with a wood fence behind"
+      }
+    }
+  },
+  "small-munsterlander": {
+    "id": 25752,
+    "breed_name": "small-munsterlander",
+    "breed_name_display": "Small Munsterlander",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/small-munsterlander/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Munsterlander.5-150x150.jpg",
+        "alt": "Small Munsterlander Pointer"
+      }
+    }
+  },
+  "smooth-fox-terrier": {
+    "id": 25754,
+    "breed_name": "smooth-fox-terrier",
+    "breed_name_display": "Smooth Fox Terrier",
+    "group": null,
+    "rank": 144,
+    "url": "https://www.akc.org/dog-breeds/smooth-fox-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Smooth-Fox-Terrier-standing-in-a-field-in-winter-150x150.jpg",
+        "alt": "Smooth Fox Terrier standing in a field in winter."
+      }
+    }
+  },
+  "soft-coated-wheaten-terrier": {
+    "id": 25767,
+    "breed_name": "soft-coated-wheaten-terrier",
+    "breed_name_display": "Soft Coated Wheaten Terrier",
+    "group": null,
+    "rank": 76,
+    "url": "https://www.akc.org/dog-breeds/soft-coated-wheaten-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Soft-Coated-Wheaten-Terrier-sitting-in-a-field-of-wildflowers-150x150.jpg",
+        "alt": "Soft Coated Wheaten Terrier sitting in a field of wildflowers."
+      }
+    }
+  },
+  "spanish-mastiff": {
+    "id": 25779,
+    "breed_name": "spanish-mastiff",
+    "breed_name_display": "Spanish Mastiff",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/spanish-mastiff/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Spanish-Mastiff-150x150.jpg",
+        "alt": "Spanish Mastiff guarding a flock of sheep in a field."
+      }
+    }
+  },
+  "spanish-water-dog": {
+    "id": 25780,
+    "breed_name": "spanish-water-dog",
+    "breed_name_display": "Spanish Water Dog",
+    "group": null,
+    "rank": 167,
+    "url": "https://www.akc.org/dog-breeds/spanish-water-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Spanish-Water-Dog-150x150.jpg",
+        "alt": "Spanish Water Dog standing in three-quarter view."
+      }
+    }
+  },
+  "spinone-italiano": {
+    "id": 25794,
+    "breed_name": "spinone-italiano",
+    "breed_name_display": "Spinone Italiano",
+    "group": null,
+    "rank": 113,
+    "url": "https://www.akc.org/dog-breeds/spinone-italiano/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Spinone-Italiano-On-White-03-150x150.jpg",
+        "alt": "Spinone Italiano sitting in three-quarter view."
+      }
+    }
+  },
+  "st-bernard": {
+    "id": 25529,
+    "breed_name": "st-bernard",
+    "breed_name_display": "Saint Bernard",
+    "group": null,
+    "rank": 63,
+    "url": "https://www.akc.org/dog-breeds/st-bernard/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Saint-Bernard-standing-in-profile-outdoors-150x150.jpg",
+        "alt": "Saint Bernard standing in profile outdoors."
+      }
+    }
+  },
+  "stabyhoun": {
+    "id": 25808,
+    "breed_name": "stabyhoun",
+    "breed_name_display": "Stabyhoun",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/stabyhoun/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/AdobeStock_62619970-150x150.jpg",
+        "alt": "Stabyhoun standing sideways facing left."
+      }
+    }
+  },
+  "staffordshire-bull-terrier": {
+    "id": 25810,
+    "breed_name": "staffordshire-bull-terrier",
+    "breed_name_display": "Staffordshire Bull Terrier",
+    "group": null,
+    "rank": 61,
+    "url": "https://www.akc.org/dog-breeds/staffordshire-bull-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Staffordshire-Bull-Terrier-On-White-01-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "standard-schnauzer": {
+    "id": 25825,
+    "breed_name": "standard-schnauzer",
+    "breed_name_display": "Standard Schnauzer",
+    "group": null,
+    "rank": 93,
+    "url": "https://www.akc.org/dog-breeds/standard-schnauzer/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Standard-Schnauzer-standing-outdoors-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "sussex-spaniel": {
+    "id": 25839,
+    "breed_name": "sussex-spaniel",
+    "breed_name_display": "Sussex Spaniel",
+    "group": null,
+    "rank": 175,
+    "url": "https://www.akc.org/dog-breeds/sussex-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Sussex-Spaniel-On-White-01-150x150.jpg",
+        "alt": "Sussex Spaniel standing in three-quarter view."
+      }
+    }
+  },
+  "swedish-lapphund": {
+    "id": 25849,
+    "breed_name": "swedish-lapphund",
+    "breed_name_display": "Swedish Lapphund",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/swedish-lapphund/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Swedish-Lapphund-On-White-01-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "swedish-vallhund": {
+    "id": 25851,
+    "breed_name": "swedish-vallhund",
+    "breed_name_display": "Swedish Vallhund",
+    "group": null,
+    "rank": 152,
+    "url": "https://www.akc.org/dog-breeds/swedish-vallhund/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Swedish-Vallhund-running-in-the-grass-150x150.jpg",
+        "alt": "Swedish Vallhund running in the grass."
+      }
+    }
+  },
+  "taiwan-dog": {
+    "id": 25860,
+    "breed_name": "taiwan-dog",
+    "breed_name_display": "Taiwan Dog",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/taiwan-dog/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Taiwan-Dog-sitting-in-the-park-150x150.jpg",
+        "alt": "Taiwan Dog sitting in the park."
+      }
+    }
+  },
+  "teddy-roosevelt-terrier": {
+    "id": 25862,
+    "breed_name": "teddy-roosevelt-terrier",
+    "breed_name_display": "Teddy Roosevelt Terrier",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/teddy-roosevelt-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/TRT-walk-yard-200x200.jpg",
+        "alt": "Teddy Roosevelt Terrier walking in the backyard."
+      }
+    }
+  },
+  "thai-bangkaew": {
+    "id": 175445,
+    "breed_name": "thai-bangkaew",
+    "breed_name_display": "Thai Bangkaew",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/thai-bangkaew/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2023/08/Thai-Bangkaew-standing-in-profile-outdoors.1-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "thai-ridgeback": {
+    "id": 25864,
+    "breed_name": "thai-ridgeback",
+    "breed_name_display": "Thai Ridgeback",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/thai-ridgeback/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Thai-Ridgeback.4-150x150.jpg",
+        "alt": "Thai Ridgeback"
+      }
+    }
+  },
+  "tibetan-mastiff": {
+    "id": 25866,
+    "breed_name": "tibetan-mastiff",
+    "breed_name_display": "Tibetan Mastiff",
+    "group": null,
+    "rank": 142,
+    "url": "https://www.akc.org/dog-breeds/tibetan-mastiff/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Tibetan-Mastiff-laying-down-outdoors-150x150.jpg",
+        "alt": "Tibetan Mastiff laying down outdoors."
+      }
+    }
+  },
+  "tibetan-spaniel": {
+    "id": 25880,
+    "breed_name": "tibetan-spaniel",
+    "breed_name_display": "Tibetan Spaniel",
+    "group": null,
+    "rank": 122,
+    "url": "https://www.akc.org/dog-breeds/tibetan-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Tibetan-Spaniel-laying-down-outdoors-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "tibetan-terrier": {
+    "id": 25894,
+    "breed_name": "tibetan-terrier",
+    "breed_name_display": "Tibetan Terrier",
+    "group": null,
+    "rank": 118,
+    "url": "https://www.akc.org/dog-breeds/tibetan-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Tibetan-Terrier-On-White-01-150x150.jpg",
+        "alt": "Tibetan Terrier standing in three-quarter view facing forward."
+      }
+    }
+  },
+  "tornjak": {
+    "id": 25909,
+    "breed_name": "tornjak",
+    "breed_name_display": "Tornjak",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/tornjak/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Tornjak-standing-in-the-woods-150x150.jpg",
+        "alt": "Tornjak standing in the woods."
+      }
+    }
+  },
+  "tosa": {
+    "id": 25911,
+    "breed_name": "tosa",
+    "breed_name_display": "Tosa",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/tosa/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Tosa-on-White-01-150x150.jpg",
+        "alt": "Tosa standing sideways facing left on grass with tall green bushes behind"
+      }
+    }
+  },
+  "toy-fox-terrier": {
+    "id": 25912,
+    "breed_name": "toy-fox-terrier",
+    "breed_name_display": "Toy Fox Terrier",
+    "group": null,
+    "rank": 106,
+    "url": "https://www.akc.org/dog-breeds/toy-fox-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Toy-Fox-Terrier-standing-portrait-150x150.jpg",
+        "alt": "Toy Fox Terrier standing for a portrait on a blue background."
+      }
+    }
+  },
+  "transylvanian-hound": {
+    "id": 25926,
+    "breed_name": "transylvanian-hound",
+    "breed_name_display": "Transylvanian Hound",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/transylvanian-hound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Transylvanian-Hound-On-White-01-150x150.jpg",
+        "alt": ""
+      }
+    }
+  },
+  "treeing-tennessee-brindle": {
+    "id": 25928,
+    "breed_name": "treeing-tennessee-brindle",
+    "breed_name_display": "Treeing Tennessee Brindle",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/treeing-tennessee-brindle/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Treeing-Tennessee-Brindle-on-White-01-150x150.jpg",
+        "alt": "Young adult Treeing Tennessee Brindle standing on grass in three-quarter view"
+      }
+    }
+  },
+  "treeing-walker-coonhound": {
+    "id": 25930,
+    "breed_name": "treeing-walker-coonhound",
+    "breed_name_display": "Treeing Walker Coonhound",
+    "group": null,
+    "rank": 143,
+    "url": "https://www.akc.org/dog-breeds/treeing-walker-coonhound/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound-150x150.jpg",
+        "alt": "Treeing Walker Coonhound standing outdoors."
+      }
+    }
+  },
+  "vizsla": {
+    "id": 25939,
+    "breed_name": "vizsla",
+    "breed_name_display": "Vizsla",
+    "group": null,
+    "rank": 36,
+    "url": "https://www.akc.org/dog-breeds/vizsla/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Vizsla-On-White-01-150x150.jpg",
+        "alt": "Vizsla standing in three-quarter view."
+      }
+    }
+  },
+  "volpino-italiano": {
+    "id": 125262,
+    "breed_name": "volpino-italiano",
+    "breed_name_display": "Volpino Italiano",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/volpino-italiano/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2021/03/Volpino-Italiano-standing-in-profile-in-the-grass-150x150.jpg",
+        "alt": "Volpino Italiano standing in profile in the grass."
+      }
+    }
+  },
+  "weimaraner": {
+    "id": 25953,
+    "breed_name": "weimaraner",
+    "breed_name_display": "Weimaraner",
+    "group": null,
+    "rank": 54,
+    "url": "https://www.akc.org/dog-breeds/weimaraner/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Weimaraner-running-into-water-150x150.jpg",
+        "alt": "Weimaraner running into water."
+      }
+    }
+  },
+  "welsh-springer-spaniel": {
+    "id": 25967,
+    "breed_name": "welsh-springer-spaniel",
+    "breed_name_display": "Welsh Springer Spaniel",
+    "group": null,
+    "rank": 141,
+    "url": "https://www.akc.org/dog-breeds/welsh-springer-spaniel/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Welsh-Springer-Spaniel-head-portrait-outdoors-150x150.jpg",
+        "alt": "Welsh Springer Spaniel head portrait outdoors."
+      }
+    }
+  },
+  "welsh-terrier": {
+    "id": 25977,
+    "breed_name": "welsh-terrier",
+    "breed_name_display": "Welsh Terrier",
+    "group": null,
+    "rank": 114,
+    "url": "https://www.akc.org/dog-breeds/welsh-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Welsh-Terrier-standing-stacked-in-the-grass-150x150.jpg",
+        "alt": "Welsh Terrier standing stacked in the grass."
+      }
+    }
+  },
+  "west-highland-white-terrier": {
+    "id": 25991,
+    "breed_name": "west-highland-white-terrier",
+    "breed_name_display": "West Highland White Terrier",
+    "group": null,
+    "rank": 45,
+    "url": "https://www.akc.org/dog-breeds/west-highland-white-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/West-Highland-White-Terrier-laying-down-in-the-grass-150x150.jpg",
+        "alt": "West Highland White Terrier laying down in the grass."
+      }
+    }
+  },
+  "wetterhoun": {
+    "id": 96258,
+    "breed_name": "wetterhoun",
+    "breed_name_display": "Wetterhoun",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/wetterhoun/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2020/01/Wetterhoun-black-150x150.jpg",
+        "alt": "Black-colored Wetterhoun standing in the grass."
+      }
+    }
+  },
+  "whippet": {
+    "id": 26002,
+    "breed_name": "whippet",
+    "breed_name_display": "Whippet",
+    "group": null,
+    "rank": 48,
+    "url": "https://www.akc.org/dog-breeds/whippet/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Whippet-On-White-01-150x150.jpg",
+        "alt": "Whippet standing in three-quarter view"
+      }
+    }
+  },
+  "wire-fox-terrier": {
+    "id": 26018,
+    "breed_name": "wire-fox-terrier",
+    "breed_name_display": "Wire Fox Terrier",
+    "group": null,
+    "rank": 107,
+    "url": "https://www.akc.org/dog-breeds/wire-fox-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Wire-Fox-Terrier.1-150x150.jpg",
+        "alt": "Wire Fox Terrier standing in profile in the grass."
+      }
+    }
+  },
+  "wirehaired-pointing-griffon": {
+    "id": 26043,
+    "breed_name": "wirehaired-pointing-griffon",
+    "breed_name_display": "Wirehaired Pointing Griffon",
+    "group": null,
+    "rank": 51,
+    "url": "https://www.akc.org/dog-breeds/wirehaired-pointing-griffon/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Wirehaired-Pointing-Griffon-laying-in-a-field-150x150.jpg",
+        "alt": "Wirehaired Pointing Griffon laying down in the grass."
+      }
+    }
+  },
+  "wirehaired-vizsla": {
+    "id": 26058,
+    "breed_name": "wirehaired-vizsla",
+    "breed_name_display": "Wirehaired Vizsla",
+    "group": null,
+    "rank": 130,
+    "url": "https://www.akc.org/dog-breeds/wirehaired-vizsla/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Wirehaired-Vizsla-wading-into-a-lake-150x150.jpg",
+        "alt": "Wirehaired Vizsla wading into a lake."
+      }
+    }
+  },
+  "working-kelpie": {
+    "id": 26073,
+    "breed_name": "working-kelpie",
+    "breed_name_display": "Working Kelpie",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/working-kelpie/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Working-Kelpie.2-150x150.jpg",
+        "alt": "Working Kelpie lying facing left, head turned forward."
+      }
+    }
+  },
+  "xoloitzcuintli": {
+    "id": 26075,
+    "breed_name": "xoloitzcuintli",
+    "breed_name_display": "Xoloitzcuintli",
+    "group": null,
+    "rank": 123,
+    "url": "https://www.akc.org/dog-breeds/xoloitzcuintli/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Xoloitzcuintli-On-White-01-150x150.jpg",
+        "alt": "Xoloitzcuintli standing sideways facing left"
+      }
+    }
+  },
+  "yakutian-laika": {
+    "id": 26089,
+    "breed_name": "yakutian-laika",
+    "breed_name_display": "Yakutian Laika",
+    "group": null,
+    "rank": 0,
+    "url": "https://www.akc.org/dog-breeds/yakutian-laika/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Yakutian-Laika1-150x150.jpg",
+        "alt": "Yakutian Laika standing in a field of tall grasses."
+      }
+    }
+  },
+  "yorkshire-terrier": {
+    "id": 26092,
+    "breed_name": "yorkshire-terrier",
+    "breed_name_display": "Yorkshire Terrier",
+    "group": null,
+    "rank": 13,
+    "url": "https://www.akc.org/dog-breeds/yorkshire-terrier/",
+    "images": {
+      "thumbnail": {
+        "src": "https://www.akc.org/wp-content/uploads/2017/11/Yorkshire-Terrier-standing-outdoors-on-a-sunny-day-150x150.jpg",
+        "alt": "Yorkshire Terrier standing outdoors on a sunny day."
+      }
+    }
+  }
+}
+]

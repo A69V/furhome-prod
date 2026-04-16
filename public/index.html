@@ -16,56 +16,59 @@
 <body>
   <!-- modals -->
   <div class="login-signup-modal not-in-use">
-    <button id="closeModal" onclick="openCloseLoginModal()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
-  <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
-</svg></button>
+    <button id="closeModal" onclick="openCloseLoginModal()"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+        height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+        <path
+          d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+      </svg></button>
     <div class="login-signup-form-container">
       <div class="img-slide">
         <img src="./assets/images/login-signup-img.jpg" alt="">
       </div>
       <div class="login-signup-form">
-        <img src="./assets/images/logo_full.png"  alt="" class="branding-logo">
+        <img src="./assets/images/logo_full.png" alt="" class="branding-logo">
         <div id="login-form">
-        <form action="/login" method="post" id="loginForm" class="">
-          <h2>Login</h2>
-          <input type="text" name="email"  placeholder="  Email/username">
-          <input type="password" name="password"  placeholder="  Password">
-          <input type="text" name="authcode" placeholder="  Enter OTP">
-          <p><input type="checkbox">Remember me for 7 days</p>
-          <button type="submit">Login</button>
-        </form>
-        <p>New user? <button id="enableSignUp">SignUp</button></p>
-      </div>
+          <form action="/login" method="post" id="loginForm" class="">
+            <h2>Login</h2>
+            <input type="text" name="email" placeholder="  Email/username">
+            <input type="password" name="password" placeholder="  Password">
+            <input type="text" name="authcode" placeholder="  Enter OTP">
+            <p><input type="checkbox">Remember me for 7 days</p>
+            <button type="submit">Login</button>
+          </form>
+          <p>New user? <button id="enableSignUp">SignUp</button></p>
+        </div>
         <div id="signup-form" class="not-in-use">
-        <form action="/signup" method="post" id="signupForm" >
-          <h2>SignUp</h2>
-          <input type="text" name="name" placeholder=" Full Name">
-          <input type="text" name="email" placeholder=" Email id">
-          <input type="password" name="password" placeholder=" Create Password">
-          <input type="password" name="conf-password" placeholder=" Confirm Password">
-          <input type="text" name="authcode" placeholder=" Enter OTP">
-          <p><input type="checkbox">I agree to all <a href="#">Terms</a> &amp; <a href="#">Privacy Policy</a></p>
-          <button type="submit">SignUp</button>
-        </form>
-        <p>Already registered? <button id="disableSignUp" >Login</button></p>
+          <form action="/signup" method="post" id="signupForm">
+            <h2>SignUp</h2>
+            <input type="text" name="name" placeholder=" Full Name">
+            <input type="text" name="email" placeholder=" Email id">
+            <input type="password" name="password" placeholder=" Create Password">
+            <input type="password" name="conf-password" placeholder=" Confirm Password">
+            <input type="text" name="authcode" placeholder=" Enter OTP">
+            <p><input type="checkbox">I agree to all <a href="#">Terms</a> &amp; <a href="#">Privacy Policy</a></p>
+            <button type="submit">SignUp</button>
+          </form>
+          <p>Already registered? <button id="disableSignUp">Login</button></p>
         </div>
       </div>
     </div>
+    <div class="back-shadow-login-modal" onclick="openCloseLoginModal()"></div>
   </div>
-<script>
-  document.getElementById("disableSignUp").addEventListener('click', function(){
-    document.getElementById("login-form").classList.toggle("not-in-use");
-    document.getElementById("signup-form").classList.toggle("not-in-use");
-  })
-  document.getElementById("enableSignUp").addEventListener('click', function(){
-    document.getElementById("login-form").classList.toggle("not-in-use");
-    document.getElementById("signup-form").classList.toggle("not-in-use");
-  })
-  function openCloseLoginModal(){
-    document.querySelector(".login-signup-modal").classList.toggle("not-in-use");
-  }
-  
-</script>
+  <script>
+    document.getElementById("disableSignUp").addEventListener('click', function () {
+      document.getElementById("login-form").classList.toggle("not-in-use");
+      document.getElementById("signup-form").classList.toggle("not-in-use");
+    })
+    document.getElementById("enableSignUp").addEventListener('click', function () {
+      document.getElementById("login-form").classList.toggle("not-in-use");
+      document.getElementById("signup-form").classList.toggle("not-in-use");
+    })
+    function openCloseLoginModal() {
+      document.querySelector(".login-signup-modal").classList.toggle("not-in-use");
+    }
+
+  </script>
   <!-- visible contents -->
   <header>
     <div class="top-head">
@@ -200,6 +203,10 @@
 
     </div>
   </div>
+  <div class="feature-section">
+    <h2>Urget adoption needed</h2>
+    
+  </div>
   <footer>
     <div class="footer-message">
       <img src="assets/images/footer-message.png" alt="Adotp, do not Shop. Rehome, do not Abandon." draggable="false">
@@ -253,9 +260,7 @@
     </div>
     </div>
     <div class="footer-copyright">
-      <p>©
-        <script>document.write(new Date().getFullYear())</script>, FurHome.
-      </p>
+      <p>© FurHome - Made with ❤️ by <a href="https://linkedin.com/in/abhinavshankr">Abhinav Shankar</a></p>
     </div>
 
   </footer>
