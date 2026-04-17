@@ -600,6 +600,9 @@ display: none;
       padding: 10px;
       z-index: 10002;
     }
+    #closeModal:hover{
+      background-color: rgba(0, 0, 0, 0.2);
+    }
     .login-signup-form-container {
       position: relative;
       background-color: white;
@@ -684,9 +687,9 @@ display: none;
   position: absolute;
   right: 0;
   border: none;
-  margin: 20px;
+  margin: 15px;
   background-color: white;
-  padding: 9px 10px 8px;
+  padding: 10px 10px 7px;
   border-radius: 50%;
   cursor: pointer;
 }
