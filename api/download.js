@@ -1,6 +1,3 @@
-// ================= BACKEND =================
-// File: api/download.js
-
 import axios from 'axios';
 
 function resolveUrl(base, relative) {
@@ -20,20 +17,32 @@ export default async function handler(req, res) {
       .filter(l => l && !l.startsWith('#'))
       .map(l => resolveUrl(url, l));
 
-    const buffers = [];
-
-    for (let seg of segments) {
-      const r = await axios.get(seg, { responseType: 'arraybuffer' });
-      buffers.push(Buffer.from(r.data));
+    if (segments.length === 0) {
+      return res.status(400).json({ error: "No segments found" });
     }
 
-    const finalBuffer = Buffer.concat(buffers);
-
     res.setHeader('Content-Type', 'video/mp2t');
-    res.setHeader('Content-Disposition', 'attachment; filename="video.ts"');
+    res.setHeader('Content-Disposition', 'attachment; filename=\"video.ts\"');
 
-    res.send(finalBuffer);
+    // 🔥 STREAM segments instead of buffering
+    for (let seg of segments) {
+      const response = await axios({
+        url: seg,
+        method: 'GET',
+        responseType: 'stream',
+      });
+
+      await new Promise((resolve, reject) => {
+        response.data.pipe(res, { end: false });
+        response.data.on('end', resolve);
+        response.data.on('error', reject);
+      });
+    }
+
+    res.end();
+
   } catch (err) {
+    console.error(err);
     res.status(500).json({ error: err.message });
   }
 }
